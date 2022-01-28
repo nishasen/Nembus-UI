@@ -1,0 +1,16 @@
+/* Avatar styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-round {
+    border-radius: 50%;
+}
+

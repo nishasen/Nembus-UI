@@ -1,0 +1,11 @@
+:root {
+    --st-primary-color: #800000;
+    --st-primary-hover: #CC0000;
+    --st-primary-disabled: #FF5C5C;
+    --st-secondary-color: #FFAD0A;
+    --st-secondary-hover: #FFC247;
+    --st-secondary-disabled: #FFDD99;
+    --st-accent-color: linear-gradient(180deg, #800000, #f44501, #ff5600, #ff6f00, #ffad0a);
+    --st-background-color: #2E1F27;
+    --st-text-color: #F7F9F9;
+}
