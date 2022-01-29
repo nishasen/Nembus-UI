@@ -7,11 +7,11 @@
 /* Border color */
 
 .border-black {
-    border-color: black;
+    border-color: var(--st-black);
 }
 
 .border-white {
-    border-color: white;
+    border-color: var(--st-white);
 }
 
 /* Padding */

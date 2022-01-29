@@ -7,7 +7,16 @@
     --st-secondary-disabled: hsl(40, 100%, 80%);
     --st-background-grey: hsl(280, 5%, 88%);
     --st-span-text: hsl(348, 100%, 52%);
+    --st-success-bg: hsl(148, 54%, 60%);
+    --st-green: hsl(147, 54%, 12%);
+    --st-danger-bg: hsl(0, 100%, 60%);
+    --st-red: hsl(0, 100%, 36%);
+    --st-warning-bg: hsl(22, 85%, 60%);
+    --st-orange: hsl(22, 85%, 48%);
+    --st-black: hsl(0, 0%, 0%);
+    --st-white: hsl(0, 0%, 100%);
     --st-header-text: 'Bree Serif', sans-serif;
     --st-subheader-text: cursive;
     --st-body-text: 'Rubik', serif;
+
 }
