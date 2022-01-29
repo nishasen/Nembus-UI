@@ -1,11 +1,13 @@
 :root {
-    --st-primary-color: #800000;
-    --st-primary-hover: #CC0000;
-    --st-primary-disabled: #FF5C5C;
+    --st-primary-color: #014465;
+    --st-primary-hover: #026CA2;
+    --st-primary-disabled: #AEE4FF;
     --st-secondary-color: #FFAD0A;
     --st-secondary-hover: #FFC247;
     --st-secondary-disabled: #FFDD99;
-    --st-accent-color: linear-gradient(180deg, #800000, #f44501, #ff5600, #ff6f00, #ffad0a);
-    --st-background-color: #2E1F27;
-    --st-text-color: #F7F9F9;
+    --st-background-grey: #E1DFE2;
+    --st-span-text: #FF0A3B;
+    --st-header-text: 'Bree Serif', sans-serif;
+    --st-subheader-text: cursive;
+    --st-body-text: 'Rubik', serif;
 }

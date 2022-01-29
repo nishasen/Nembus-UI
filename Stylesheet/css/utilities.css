@@ -1,0 +1,168 @@
+/* Border */
+
+.border2 {
+    border: 2px solid;
+}
+
+/* Border color */
+
+.border-black {
+    border-color: black;
+}
+
+.border-white {
+    border-color: white;
+}
+
+/* Padding */
+
+/* Gap */
+
+/* Margin */
+
+/* Display */
+
+.dis-block {
+    display: block;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.dis-grid {
+    display: grid;
+}
+
+.dis-inline-block {
+    display: inline-block;
+}
+
+.dis-inline {
+    display: inline;
+}
+
+.dis-inline-flex {
+    display: inline-flex;
+}
+
+.dis-hide {
+    display: none;
+}
+
+/* Positions */
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-fixed {
+    position: fixed;
+}
+
+.pos-sticky {
+    position: sticky;
+}
+
+/* Alignments */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.centered {
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.horizontal-centered {
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.vertical-centered {
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.child-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-stacked {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Typography */
+
+.text-primary {
+    color: var(--st-primary-color);
+}
+
+.text-secondary {
+    color: var(--st-secondary-color);
+}
+
+.text-primary-hover {
+    color: var(--st-primary-hover);
+}
+
+.text-secondary-hover {
+    color: var(--st-secondary-hover);
+}
+
+.text-span {
+    color: var(--st-span-text);    
+}
+
+/* Background */
+
+.primary-bgcolor {
+    background-color: var(--st-primary-color);
+    color: white;
+}
+
+.secondary-bgcolor {
+    background-color: var(--st-secondary-color);
+    color: white;
+}
+
+.primary-bgcolor-hover {
+    background-color: var(--st-primary-hover);
+    color: white;
+}
+
+.secondary-bgcolor-hover {
+    background-color: var(--st-secondary-hover);
+    color: white;
+}
+
+.primary-bgcolor-disabled {
+    background-color: var(--st-primary-disabled);
+    color: white;
+}
+
+.secondary-bgcolor-disabled {
+    background-color: var(--st-secondary-disabled);
+    color: white;
+}
+
+.background-grey {
+    background-color: var(--st-background-grey);
+}
