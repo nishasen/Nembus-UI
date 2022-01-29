@@ -1,12 +1,12 @@
 :root {
-    --st-primary-color: #014465;
-    --st-primary-hover: #026CA2;
-    --st-primary-disabled: #AEE4FF;
-    --st-secondary-color: #FFAD0A;
-    --st-secondary-hover: #FFC247;
-    --st-secondary-disabled: #FFDD99;
-    --st-background-grey: #E1DFE2;
-    --st-span-text: #FF0A3B;
+    --st-primary-color: hsl(200, 100%, 20%);
+    --st-primary-hover: hsl(200, 100%, 32%);
+    --st-primary-disabled: hsl(200, 100%, 84%);
+    --st-secondary-color: hsl(40, 100%, 52%);
+    --st-secondary-hover: hsl(40, 100%, 64%);
+    --st-secondary-disabled: hsl(40, 100%, 80%);
+    --st-background-grey: hsl(280, 5%, 88%);
+    --st-span-text: hsl(348, 100%, 52%);
     --st-header-text: 'Bree Serif', sans-serif;
     --st-subheader-text: cursive;
     --st-body-text: 'Rubik', serif;
