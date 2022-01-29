@@ -1,1 +1,35 @@
 /* This css file is for avatars */
+
+.avatar {
+    border-radius: 50%;
+}
+
+.avatar-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-lg-size {
+    width: 10rem;
+    height: 10rem;
+    font-size: 4rem;
+}
+
+.avatar-md-size {
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.5rem;
+}
+
+.avatar-sm-size {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.avatar-xs-size {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.9rem;
+}

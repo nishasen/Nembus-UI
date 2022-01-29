@@ -1,11 +1,13 @@
 :root {
-    --st-primary-color: #800000;
-    --st-primary-hover: #CC0000;
-    --st-primary-disabled: #FF5C5C;
-    --st-secondary-color: #FFAD0A;
-    --st-secondary-hover: #FFC247;
-    --st-secondary-disabled: #FFDD99;
-    --st-accent-color: linear-gradient(180deg, #800000, #f44501, #ff5600, #ff6f00, #ffad0a);
-    --st-background-color: #2E1F27;
-    --st-text-color: #F7F9F9;
+    --st-primary-color: hsl(200, 100%, 20%);
+    --st-primary-hover: hsl(200, 100%, 32%);
+    --st-primary-disabled: hsl(200, 100%, 84%);
+    --st-secondary-color: hsl(40, 100%, 52%);
+    --st-secondary-hover: hsl(40, 100%, 64%);
+    --st-secondary-disabled: hsl(40, 100%, 80%);
+    --st-background-grey: hsl(280, 5%, 88%);
+    --st-span-text: hsl(348, 100%, 52%);
+    --st-header-text: 'Bree Serif', sans-serif;
+    --st-subheader-text: cursive;
+    --st-body-text: 'Rubik', serif;
 }
