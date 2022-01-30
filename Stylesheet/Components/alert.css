@@ -1,2 +1,37 @@
 /* This css file is for alerts */
 
+.alert-box{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    font-family: var(--st-body-text);
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.alert-primary {
+    background-color: var(--st-primary-disabled);
+    color: var(--st-primary-color);
+}
+
+.alert-secondary {
+    background-color: var(--st-secondary-disabled);
+    color: var(--st-secondary-color);
+}
+
+.alert-danger {
+    background-color: var(--st-danger-bg);
+    color: var(--st-red);
+}
+
+.alert-warning {
+    background-color: var(--st-warning-bg);
+    color: var(--st-orange);
+}
+
+.alert-success {
+    background-color: var(--st-success-bg);
+    color: var(--st-green);
+}

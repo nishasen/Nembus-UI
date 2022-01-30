@@ -14,12 +14,6 @@
     border-color: var(--st-white);
 }
 
-/* Padding */
-
-/* Gap */
-
-/* Margin */
-
 /* Display */
 
 .dis-block {
@@ -89,6 +83,7 @@
 }
 
 .horizontal-centered {
+    position: absolute;
     left:50%;
     transform: translateX(-50%);
 }

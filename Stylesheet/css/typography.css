@@ -1,35 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik&display=swap');
-/* font-family: 'Bree Serif', serif;
-font-family: cursive;
-font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bai+Jamjuree&family=Epilogue&display=swap');
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Epilogue', sans-serif;
+*/
 
 h1 {
     font-family: var(--st-header-text);
     font-weight: 750;
-    font-size: 2.5rem;
+    line-height: 4rem;
+    font-size: 3rem;
 }
 
 h2 {
     font-family: var(--st-subheader-text);
     font-weight: 700;
+    line-height: 2.5rem;
     font-size: 2rem;
 }
 
 h3 {
     font-family: var(--st-subheader-text);
     font-weight: 650;
+    line-height: 2rem;
     font-size: 1.5rem;
 }
 
 h4 {
     font-family: var(--st-subheader-text);
     font-weight: 600;
-    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
 p {
     font-family: var(--st-body-text);
     font-weight: 400;
-    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
