@@ -14,6 +14,8 @@
     --st-warning-bg: hsl(22, 85%, 72%);
     --st-orange: hsl(22, 85%, 48%);
     --st-brown: hsl(30, 100%, 29%);
+    --st-lightgreen: hsl(120, 100%, 32%);
+    --st-darkgrey: hsl(211, 17%, 28%);
     --st-black: hsl(0, 0%, 0%);
     --st-white: hsl(0, 0%, 100%);
     --st-header-text: 'Abril Fatface', cursive;
