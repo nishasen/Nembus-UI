@@ -7,18 +7,26 @@
     <title>Playground</title>
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            gap : 1rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+    </style>
 </head>
 <body>
-
     
-
-    <script src="/js/script.js" type="text/javascript"></script>
+    
+    <!-- <script src="/js/script.js" type="text/javascript"></script> -->
 </body>
 </html>
 
 <!-- 
 
-**** Avatar with image ****
+****Circle Avatar with image ****
 
     <div class="avatar avatar-lg-size">
         <img src="/Assets/avatar.jpg" class="img-responsive img-round" alt="avatar">
@@ -33,16 +41,43 @@
         <img src="/Assets/avatar.jpg" class="img-responsive img-round" alt="avatar">
     </div>
 
-**** Avatar with text ****
-    <div class="avatar avatar-lg-size avatar-text">TS</div>
-    <div class="avatar avatar-md-size avatar-text">TS</div>
-    <div class="avatar avatar-sm-size avatar-text">TS</div>
-    <div class="avatar avatar-xs-size avatar-text">TS</div>
+**** Square Avatar with image ****
 
-    <div class="avatar avatar-lg-size avatar-text">TS</div>
-    <div class="avatar avatar-md-size avatar-text">TS</div>
-    <div class="avatar avatar-sm-size avatar-text">TS</div>
-    <div class="avatar avatar-xs-size avatar-text">TS</div>
+    <div class="avatar avatar-lg-size">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+    </div>
+    <div class="avatar avatar-md-size">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+    </div>
+    <div class="avatar avatar-sm-size">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+    </div>
+    <div class="avatar avatar-xs-size">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+
+
+**** Avatar with text - circle****
+    <div class="avatar avatar-lg-size avatar-text primary-bgcolor border-white border2">TS</div>
+    <div class="avatar avatar-md-size avatar-text primary-bgcolor border-white border2">TS</div>
+    <div class="avatar avatar-sm-size avatar-text primary-bgcolor border-white border2">TS</div>
+    <div class="avatar avatar-xs-size avatar-text primary-bgcolor border-white border2">TS</div>
+
+    <div class="avatar avatar-lg-size avatar-text secondary-bgcolor border-white border2">TS</div>
+    <div class="avatar avatar-md-size avatar-text secondary-bgcolor border-white border2">TS</div>
+    <div class="avatar avatar-sm-size avatar-text secondary-bgcolor border-white border2">TS</div>
+    <div class="avatar avatar-xs-size avatar-text secondary-bgcolor border-white border2">TS</div>
+
+    **** Avatar with text - square****
+
+    <div class="avatar-square avatar-lg-size avatar-text primary-bgcolor border-white border2">TS</div>
+    <div class="avatar-square avatar-md-size avatar-text primary-bgcolor border-white border2">TS</div>
+    <div class="avatar-square avatar-sm-size avatar-text primary-bgcolor border-white border2">TS</div>
+    <div class="avatar-square avatar-xs-size avatar-text primary-bgcolor border-white border2">TS</div>
+
+    <div class="avatar-square avatar-lg-size avatar-text secondary-bgcolor border-white border2">TS</div>
+    <div class="avatar-square avatar-md-size avatar-text secondary-bgcolor border-white border2">TS</div>
+    <div class="avatar-square avatar-sm-size avatar-text secondary-bgcolor border-white border2">TS</div>
+    <div class="avatar-square avatar-xs-size avatar-text secondary-bgcolor border-white border2">TS</div>
 
 
     **** Alert Bars ****
@@ -80,18 +115,87 @@
             <i class="fa fa-remove"></i>
         </a>
     </div>
+
+    **** Circular Avatar badge with image ****
+
+    <div class="avatar avatar-lg-size badge-wrapper">
+            <img src="/Assets/avatar.jpg" class="img-responsive img-round" alt="avatar">
+            <div class="badge-status-circle badge-status-online badge-lg-circle badge-lg"></div>
+        </div>
+        <div class="avatar avatar-md-size badge-wrapper">
+            <img src="/Assets/avatar.jpg" class="img-responsive img-round" alt="avatar">
+            <div class="badge-status-circle badge-status-offline badge-md-circle badge-md">
+            </div>
+        </div> 
+        <div class="avatar avatar-sm-size badge-wrapper">
+            <img src="/Assets/avatar.jpg" class="img-responsive img-round" alt="avatar">
+            <div class="badge-status-circle badge-status-ideal badge-sm-circle badge-sm">
+            </div>
+        </div> 
+        <div class="avatar avatar-xs-size badge-wrapper">
+            <img src="/Assets/avatar.jpg" class="img-responsive img-round" alt="avatar">
+            <div class="badge-status-circle badge-status-away badge-xs-circle badge-xs">
+            </div>
+        </div>  
+
+    **** Square avatar badge with image **** 
+        <div class="avatar avatar-lg-size badge-wrapper">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+        <div class="badge-status-square badge-status-online badge-lg"></div>
+    </div>
+
+    <div class="avatar avatar-md-size badge-wrapper">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+        <div class="badge-status-square badge-status-offline badge-md"></div>
+    </div> 
+    <div class="avatar avatar-sm-size badge-wrapper">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+        <div class="badge-status-square badge-status-ideal badge-sm"></div>
+    </div> 
+    <div class="avatar avatar-xs-size badge-wrapper">
+        <img src="/Assets/avatar.jpg" class="img-responsive img-square" alt="avatar">
+        <div class="badge-status-square badge-status-away badge-xs"></div>
+    </div>  
+  
+    **** Circle avatar badge with text ****
+
+    <div class="avatar avatar-lg-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-circle badge-status-online badge-lg-circle badge-lg"></div>
+    </div>
+    <div class="avatar avatar-md-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-circle badge-status-offline badge-md-circle badge-md"></div>
+    </div>
+    <div class="avatar avatar-sm-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-circle badge-status-ideal badge-sm-circle badge-sm"></div>
+    </div>
+    <div class="avatar avatar-xs-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-circle badge-status-away badge-xs-circle badge-xs"></div>
+    </div>
+
+    **** Square avatar badge with text ****
+
+    <div class="avatar-square avatar-lg-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-square badge-status-online badge-lg"></div>
+    </div>
+    <div class="avatar-square avatar-md-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-square badge-status-offline badge-md"></div>
+    </div>
+    <div class="avatar-square avatar-sm-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-square badge-status-away badge-sm"></div>
+    </div>
+    <div class="avatar-square avatar-xs-size avatar-text badge-wrapper primary-bgcolor border-white border2">TS
+        <div class="badge-status-square badge-status-ideal badge-xs"></div>
+    </div>
+
+    **** Text badge ****
+    
+    <h1>Badge with h1 heading <span class="badge-text badge-box-square primary-bgcolor">New</span></h1>
+    <h2>Badge with h2 heading <span class="badge-text badge-box-square secondary-bgcolor">New</span></h2>
+    <h3>Badge with h3 heading <span class="badge-text badge-box-round secondary-bgcolor">Updated</span></h3>
+    <h4>Badge with h4 heading <span class="badge-text badge-box-square primary-bgcolor">New</span></h4>
+    <h5>Badge with h5 heading <span class="badge-text badge-box-square secondary-bgcolor">Update</span></h5>
+    <p>Badge with p heading <span class="badge-text badge-box-round secondary-bgcolor">New</span></p>
+
     
  -->
 
- <!-- function fakeFetch(msg, shouldReject) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (shouldReject) {
-        reject(`error from server: ${msg}`);
-      }
-      resolve(`from server: ${msg}`);
-    }, 3000);
-  });
-  const getMessage1 = msg => fakeFetch(msg).then(data=>data.length).catch(err => err.length)
-getMessage1("Nisha")
-} -->
