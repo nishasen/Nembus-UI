@@ -9,14 +9,15 @@
     --st-span-text: hsl(348, 100%, 52%);
     --st-success-bg: hsl(148, 54%, 60%);
     --st-green: hsl(147, 54%, 12%);
-    --st-danger-bg: hsl(0, 100%, 60%);
+    --st-danger-bg: hsl(0, 100%, 68%);
     --st-red: hsl(0, 100%, 36%);
-    --st-warning-bg: hsl(22, 85%, 60%);
+    --st-warning-bg: hsl(22, 85%, 72%);
     --st-orange: hsl(22, 85%, 48%);
+    --st-brown: hsl(30, 100%, 29%);
     --st-black: hsl(0, 0%, 0%);
     --st-white: hsl(0, 0%, 100%);
-    --st-header-text: 'Bree Serif', sans-serif;
-    --st-subheader-text: cursive;
-    --st-body-text: 'Rubik', serif;
+    --st-header-text: 'Abril Fatface', cursive;
+    --st-subheader-text: 'Bai Jamjuree', sans-serif;
+    --st-body-text: 'Epilogue', sans-serif;
 
 }

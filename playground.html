@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playground</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="alert-box alert-primary">
-        A primary alert box with <a class="link-text link-primary-text">link</a>
-    </div>
-    <div class="alert-box alert-secondary">
-        
-    </div>
+
+    
 </body>
 </html>
 
@@ -45,5 +42,69 @@
     <div class="avatar avatar-sm-size avatar-text">TS</div>
     <div class="avatar avatar-xs-size avatar-text">TS</div>
 
+
+    **** Alert Bars ****
+
+    <div class="alert-box alert-primary">
+        This is a primary alert with a link <a class="link-text link-primary">Check this out!</a>
+    </div>
+    <div class="alert-box alert-secondary">
+        This is a secondary alert with a link <a class="link-text link-secondary">Check this out!</a>
+    </div>
+    <div class="alert-box alert-danger">
+        <span>
+            <i class="fa fa-bug"></i>
+        </span>
+        This is a danger alert!!!
+    </div>
+    <div class="alert-box alert-warning">
+        <span>
+            <i class="fa fa-warning"></i>
+        </span>
+        This is a warning alert!!!
+    </div>
+    <div class="alert-box alert-success">
+        <span>
+            <i class="fa fa-check-circle"></i>
+        </span>
+        This is a success alert!!!
+    </div>
+
+    **** Alert bars with close button ****
+
+    <div class="alert-box alert-danger">
+        <i class="fa fa-bug"></i> 
+        This a danger alert!!!
+        <a class="btn-close">
+            <i class="fa fa-remove btn-close"></i>
+        </a>
+    </div>
+    <div class="alert-box alert-warning">
+        <i class="fa fa-warning"></i>
+        This is a warning alert!!!
+        <a class="btn-close">
+            <i class="fa fa-remove"></i>
+        </a>
+    </div>
+    <div class="alert-box alert-success">
+        <i class="fa fa-check-circle"></i>
+        This is a success alert!!!
+        <a class="btn-close">
+            <i class="fa fa-remove"></i>
+        </a>
+    </div>
     
  -->
+
+ <!-- function fakeFetch(msg, shouldReject) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (shouldReject) {
+        reject(`error from server: ${msg}`);
+      }
+      resolve(`from server: ${msg}`);
+    }, 3000);
+  });
+  const getMessage1 = msg => fakeFetch(msg).then(data=>data.length).catch(err => err.length)
+getMessage1("Nisha")
+} -->
