@@ -4,6 +4,10 @@
     border-radius: 50%;
 }
 
+.avatar-square {
+    border-radius: 10%;
+}
+
 .avatar-text {
     display: flex;
     justify-content: center;
@@ -23,13 +27,13 @@
 }
 
 .avatar-sm-size {
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     font-size: 1.5rem;
 }
 
 .avatar-xs-size {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
     font-size: 0.9rem;
 }

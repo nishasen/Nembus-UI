@@ -1,0 +1,113 @@
+/* This file is for badge */
+
+.badge-wrapper {
+    position: relative;
+}
+
+.badge-status-circle {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    border: 2px solid var(--st-white);
+}
+
+.badge-status-square {
+    border-radius: 10%;
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    right: 0;
+    border: 2px solid var(--st-white);
+}
+
+.badge-status-online {
+    background-color: var(--st-lightgreen);
+}
+
+.badge-status-offline {
+    background-color: var(--st-red);
+}
+
+.badge-status-ideal {
+    background-color: var(--st-orange);
+}
+
+.badge-status-away {
+    background-color: var(--st-darkgrey);
+}
+
+.badge-lg {
+    width: 1.5rem;
+    height: 1.5rem;  
+}
+
+.badge-md {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.badge-sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+.badge-xs {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.badge-lg-circle {
+    right: 1.8rem;
+}
+
+.badge-md-circle {
+    right: 1rem;
+}
+
+.badge-sm-circle {
+    right: 0.3rem;
+}
+
+.badge-xs-circle {
+    right: 0.1rem;
+}
+
+.badge-text {
+    margin-left: 1.5rem;
+}
+
+h3 .badge-box-round {
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+}
+
+p .badge-box-round {
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+}
+
+.badge-box-square {
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.badge-icon {
+    font-size: 2rem;
+    width: 2rem;
+}
+
+.badge-number {
+    position: absolute;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+    top: 0;
+    right: -1rem;
+}
+
