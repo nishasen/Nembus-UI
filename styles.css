@@ -1,10 +1,10 @@
-@import '/Stylesheet/Components/avatar.css';
-@import '/Stylesheet/Components/alert.css';
-@import '/Stylesheet/Components/badge.css';
-
 @import '/Stylesheet/css/general.css';
 @import '/Stylesheet/css/reset.css';
 @import '/Stylesheet/css/spacing.css';
 @import '/Stylesheet/css/typography.css';
 @import '/Stylesheet/css/utilities.css';
 @import '/Stylesheet/css/variables.css';
+
+@import '/Stylesheet/Components/avatar.css';
+@import '/Stylesheet/Components/alert.css';
+@import '/Stylesheet/Components/badge.css';
