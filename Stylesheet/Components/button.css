@@ -144,9 +144,21 @@
 
 /* Icon button properties */
 
+.icon-sm {
+    width: 2rem;
+}
+
+.icon-md {
+    width: 2.5rem;
+}
+
+.icon-lg {
+    width: 3rem;
+}
+
 .btn-icon {
     border-radius: 50%;
-    width: 3rem;
+    background-color: transparent;
 }
 
 /* Icon button colors */
@@ -219,18 +231,22 @@
 
 .btn-icon:hover {
     background-color: var(--st-lightgrey);
+    opacity: 0.9;
 }
 
 .btn-fire:hover {
     background-color: var(--st-lightred);
+    opacity: 0.9;
 }
 
 .btn-primary:hover {
     background-color: var(--st-primary-hover);
+    opacity: 0.9;
 }
 
 .btn-secondary:hover {
     background-color: var(--st-secondary-hover);
+    opacity: 0.9;
 }
 
 .btn-success:hover {

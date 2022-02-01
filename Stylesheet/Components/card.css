@@ -1,0 +1,94 @@
+/* This is card file */
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    box-shadow: var(--st-box-shadow);
+    max-width: 16rem;
+    border-radius: 0.5rem;
+}
+
+.img-container {
+    max-width: 16rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card-overlay {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
+.card-overlay .card-title{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: flex-end;
+    flex-direction: row;
+    text-shadow: var(--st-text-shadow);
+}
+
+
+
+.card-overlay .card-image, .card-overlay .card-title {
+    grid-area: 1/1/1/1;
+}
+
+.card-image {
+    max-width: 16rem;
+    height: 16rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card-content {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.icon-pos {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.2rem;
+}
+
+.icon-pos:hover {
+    opacity: 0.7;
+}
+
+.card-desc {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title-heading {
+    margin-bottom: 0.4rem
+}
+
+.ratings {
+    margin-right: auto;
+}
+
+.checked {
+    color: var(--st-orange);
+}
+
+.card-btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
