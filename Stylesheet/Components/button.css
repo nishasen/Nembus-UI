@@ -187,7 +187,7 @@
     margin: 0 auto;
     border: 2px solid var(--st-white);
     background-color: transparent;
-    text-shadow: 5px 5px 10px #000000;
+    text-shadow: 5px 5px 10px var(--st-black);
 }
 
 .btn-over-image, .image {

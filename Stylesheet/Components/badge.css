@@ -9,20 +9,22 @@
     position: absolute;
     z-index: 9999;
     bottom: 0;
-    border: 2px solid var(--st-white);
-}
-
-.badge-status-square {
-    border-radius: 10%;
-    position: absolute;
-    z-index: 9999;
-    bottom: 0;
     right: 0;
     border: 2px solid var(--st-white);
 }
 
+/* .badge-status-square {
+    border-radius: 10%;
+    border-bottom-right-radius: 40%;
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    right: 0rem;
+    border: 2px solid var(--st-white);
+} */
+
 .badge-status-online {
-    background-color: var(--st-lightgreen);
+    background-color: var(--st-onlinegreen);
 }
 
 .badge-status-offline {

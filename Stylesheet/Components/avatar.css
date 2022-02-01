@@ -2,10 +2,12 @@
 
 .avatar {
     border-radius: 50%;
+    border: 2px solid var(--st-white);
 }
 
 .avatar-square {
-    border-radius: 10%;
+    border-radius:  10%;
+    border: 2px solid var(--st-white);
 }
 
 .avatar-text {
