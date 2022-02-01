@@ -23,7 +23,7 @@
 
 .alert-danger {
     background-color: var(--st-danger-bg);
-    color: var(--st-red);
+    color: var(--st-darkred);
 }
 
 .alert-warning {
