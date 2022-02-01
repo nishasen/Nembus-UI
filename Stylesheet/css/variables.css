@@ -1,25 +1,30 @@
 :root {
     --st-primary-color: hsl(200, 100%, 20%);
-    --st-primary-hover: hsl(200, 100%, 32%);
+    --st-primary-hover: hsl(200, 100%, 40%);
     --st-primary-disabled: hsl(200, 100%, 84%);
     --st-secondary-color: hsl(40, 100%, 52%);
-    --st-secondary-hover: hsl(40, 100%, 64%);
+    --st-secondary-hover: hsl(40, 100%, 72%);
     --st-secondary-disabled: hsl(40, 100%, 80%);
     --st-background-grey: hsl(280, 5%, 88%);
     --st-span-text: hsl(348, 100%, 52%);
     --st-success-bg: hsl(148, 54%, 60%);
-    --st-green: hsl(147, 54%, 12%);
+    --st-green: hsl(120, 100%, 15%);
     --st-danger-bg: hsl(0, 100%, 68%);
-    --st-red: hsl(0, 100%, 36%);
+    --st-darkred: hsl(0, 100%, 36%);
     --st-warning-bg: hsl(22, 85%, 72%);
     --st-orange: hsl(22, 85%, 48%);
     --st-brown: hsl(30, 100%, 29%);
-    --st-lightgreen: hsl(120, 100%, 32%);
+    --st-onlinegreen: hsl(120, 100%, 25%);
+    --st-lightgreen: hsl(120, 100%, 80%);
     --st-darkgrey: hsl(211, 17%, 28%);
+    --st-lightgrey: hsl(224, 10%, 72%);
+    --st-red: hsl(0, 100%, 50%);
+    --st-lightred: hsl(0, 100%, 80%);
     --st-black: hsl(0, 0%, 0%);
     --st-white: hsl(0, 0%, 100%);
     --st-header-text: 'Abril Fatface', cursive;
     --st-subheader-text: 'Bai Jamjuree', sans-serif;
     --st-body-text: 'Epilogue', sans-serif;
-
+    --st-floating-btn-shadow: 2px 5px 5px  rgba(0,0,0,0.2);
+    --st-btn-txt-shadow: 5px 5px 10px var(--st-black);
 }
