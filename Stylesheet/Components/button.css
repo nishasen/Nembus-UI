@@ -167,6 +167,20 @@
     color: var(--st-green);
 }
 
+/* Disabled button */
+
+.btn-disabled-contained {
+    color: var(--st-white);
+    background-color: var(--st-lightgrey);
+    cursor: auto;
+}
+
+.btn-disabled-outlined {
+    color: var(--st-lightgrey);
+    border: 2px solid var(--st-lightgrey);
+    cursor: auto;
+}
+
 /* Img container */
 
 .img-btn-wrapper {
