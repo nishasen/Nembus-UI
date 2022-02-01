@@ -180,13 +180,14 @@
 .btn-over-image {
     color: white;
     font-size: 1.5rem;
+    font-weight: bold;
     max-width: 9rem;
     height: 5rem;
     z-index: 9999;
     margin: 0 auto;
     border: 2px solid var(--st-white);
     background-color: transparent;
-    /* box-shadow: 5px 5px 5px rgba(0,0,0,0.2)); */
+    text-shadow: 5px 5px 10px #000000;
 }
 
 .btn-over-image, .image {
