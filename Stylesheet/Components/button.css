@@ -54,7 +54,7 @@
 
 .btn-floating {
     border-radius: 50%;
-    box-shadow: 2px 5px 5px  rgba(0,0,0,0.2);
+    box-shadow: var(--st-floating-btn-shadow);
 }
 
 /* Contained button */
@@ -201,7 +201,7 @@
     margin: 0 auto;
     border: 2px solid var(--st-white);
     background-color: transparent;
-    text-shadow: 5px 5px 10px var(--st-black);
+    text-shadow: var(--st-btn-txt-shadow)
 }
 
 .btn-over-image, .image {
