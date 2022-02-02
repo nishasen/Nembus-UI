@@ -1,8 +1,8 @@
 :root {
-    --st-primary-color: hsl(200, 100%, 20%);
+    --st-primary-color: hsl(200, 100%, 15%);
     --st-primary-hover: hsl(200, 100%, 40%);
     --st-primary-disabled: hsl(200, 100%, 84%);
-    --st-secondary-color: hsl(40, 100%, 52%);
+    --st-secondary-color: hsl(40, 100%, 45%);
     --st-secondary-hover: hsl(40, 100%, 72%);
     --st-secondary-disabled: hsl(40, 100%, 80%);
     --st-background-grey: hsl(280, 5%, 88%);
@@ -17,7 +17,7 @@
     --st-onlinegreen: hsl(120, 100%, 25%);
     --st-lightgreen: hsl(120, 100%, 80%);
     --st-darkgrey: hsl(211, 17%, 28%);
-    --st-lightgrey: hsl(224, 10%, 72%);
+    --st-lightgrey: hsl(224, 10%, 75%);
     --st-red: hsl(0, 100%, 50%);
     --st-lightred: hsl(0, 100%, 80%);
     --st-black: hsl(0, 0%, 0%);
@@ -27,4 +27,8 @@
     --st-body-text: 'Epilogue', sans-serif;
     --st-floating-btn-shadow: 2px 5px 5px  rgba(0,0,0,0.2);
     --st-btn-txt-shadow: 5px 5px 10px var(--st-black);
+    --st-text-shadow: 2px 2px 3px var(--st-white);
+    --st-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+/* 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */

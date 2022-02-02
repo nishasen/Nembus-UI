@@ -69,13 +69,20 @@
     margin-left: 1.5rem;
 }
 
-h3 .badge-box-round {
-    padding: 0.4rem 1rem;
-    border-radius: 2rem;
+.wrap-inline {
+    display: flex;
+    align-items: center;
 }
 
-p .badge-box-round {
-    padding: 0.4rem 1rem;
+.badge-over-image {
+    font-family: var(--st-subheader-text);
+    position: absolute;
+    top: 1rem;
+    left: -2rem;
+}
+
+.badge-box-round {
+    padding: 0.2rem 1rem;
     border-radius: 1rem;
 }
 

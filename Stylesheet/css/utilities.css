@@ -138,6 +138,16 @@
     color: white;
 }
 
+.fire-bgcolor {
+    background-color: var(--st-red);
+    color:var(--st-white)
+}
+
+.success-bgcolor {
+    background-color: var(--st-green);
+    color:var(--st-white);
+}
+
 .primary-bgcolor-hover {
     background-color: var(--st-primary-hover);
     color: white;
