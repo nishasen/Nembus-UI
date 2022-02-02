@@ -142,6 +142,48 @@
     color: var(--st-white);
 }
 
+/* Big buttons */
+
+.big-btn-container {
+    width: 12rem;
+}
+
+.btn-big {
+    width: inherit;
+}
+
+.btn-space {
+    gap: 0.5rem;
+}
+
+
+/* Icon button colors */
+
+.btn-normal {
+    color: var(--st-black);
+    background-color: var(--st-black);
+}
+
+.btn-fire {
+    color: var(--st-red);
+    background-color: var(--st-red);
+}
+
+.btn-primary {
+    color: var(--st-primary-color);
+    background-color: var(--st-primary-color);
+}
+
+.btn-secondary {
+    color: var(--st-secondary-color);
+    background-color: var(--st-secondary-color);
+}
+
+.btn-success {
+    color: var(--st-green);
+    background-color: var(--st-green);
+}
+
 /* Icon button properties */
 
 .icon-sm {
@@ -156,28 +198,17 @@
     width: 3rem;
 }
 
-.btn-icon {
+.btn-icon-solid {
     border-radius: 50%;
     background-color: transparent;
 }
 
-/* Icon button colors */
-
-.btn-fire {
-    color: var(--st-red);
+.btn-icon-contained {
+    color: var(--st-white);
+    border-radius: 50%;
 }
 
-.btn-primary {
-    color: var(--st-primary-color);
-}
 
-.btn-secondary {
-    color: var(--st-secondary-color);
-}
-
-.btn-success {
-    color: var(--st-green);
-}
 
 /* Disabled button */
 
@@ -229,8 +260,8 @@
 
 /* Icon hover */
 
-.btn-icon:hover {
-    background-color: var(--st-lightgrey);
+.btn-normal:hover {
+    background-color: var(--st-background-grey);
     opacity: 0.9;
 }
 

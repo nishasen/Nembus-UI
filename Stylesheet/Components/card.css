@@ -1,94 +1,113 @@
-/* This is card file */
-
 .card-wrapper {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 20rem;
+    grid-template-rows: auto auto auto auto auto auto;
+    box-shadow: var(--st-box-shadow);
+    border-radius: 0.5rem;
+    max-width: 20rem;
+}
+
+.card-hor-wrapper {
+    display: grid;
+    grid-template-columns: 36rem;
     grid-template-rows: auto auto;
     box-shadow: var(--st-box-shadow);
-    max-width: 16rem;
     border-radius: 0.5rem;
+    max-width: 36rem;
+}
+
+.card-hor-top {
+    display: flex;
+    display: grid;
+    grid-template-columns: 15rem 21rem;
+    grid-template-rows: auto;
 }
 
 .img-container {
-    max-width: 16rem;
-    display: flex;
-    justify-content: center;
     position: relative;
 }
 
-.card-overlay {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-}
-
-.card-overlay .card-title{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    align-items: flex-end;
-    flex-direction: row;
-    text-shadow: var(--st-text-shadow);
-}
-
-
-
-.card-overlay .card-image, .card-overlay .card-title {
-    grid-area: 1/1/1/1;
+.hor-img-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--st-background-grey);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .card-image {
-    max-width: 16rem;
-    height: 16rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
 
-.card-content {
-    margin-top: 0.5rem;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.hor-image {
+    border-top-right-radius: 0;
 }
 
-.icon-pos {
+.card-top-icon {
     position: absolute;
-    top: 0.3rem;
-    right: 0.2rem;
+    top: 0.5rem;
+    right: 0.5rem;
 }
 
-.icon-pos:hover {
-    opacity: 0.7;
+.card-overlay-image, .card-overlay-text {
+    grid-area: 1/1/2/2;
+    z-index: 2;
+    align-items: flex-end;
 }
 
-.card-desc {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
+.card-overlay-text {
+    padding-bottom: 0.5rem;
+    color: var(--st-white);
+}
+
+.card-title, .card-body, .ratings, .price, .card-btn-container, .card-hor-container {
+    padding-top: 0.5rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.card-title, .card-hor-title, .card-btn-container, .card-icon-container, .card-hor-container {
+    display: flex;
 }
 
 .card-title {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.card-title-heading {
-    margin-bottom: 0.4rem
-}
-
-.ratings {
-    margin-right: auto;
+.card-hor-title {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .checked {
-    color: var(--st-orange);
+    color: var(--st-secondary-color);
 }
 
 .card-btn-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: space-around;
 }
+
+.card-hor-container {
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.card-hor-btn-container {
+    display: flex;
+    margin-right: auto;
+}
+
+.card-icon-container {
+    margin-left: auto;
+}
+
+.card-hor-btn-container, .card-icon-container {
+    gap: 1rem
+}
+
+
+
