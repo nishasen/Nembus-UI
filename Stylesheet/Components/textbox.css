@@ -1,5 +1,17 @@
 /* This is textbox file */
 
+input {
+    outline: none;
+    border: none;
+    display:block;
+  }
+
+label {
+  display: block;
+  font-size: 12px;
+  color: var(--st-bordergrey);
+} 
+  
 .basic-textfield-outlined {
     outline: 2px solid transparent;
     border: 1px solid var(--st-bordergrey);
@@ -49,6 +61,19 @@
     color: var(--st-red);
 }
 
+.textfield-label {
+    display: inline-block;
+    padding: 3px;
+}
+
+.filled-color {
+    background-color: inherit;
+}
+
+.label-error {
+    padding-top: 6px;
+}
+
 .basic-textfield-outlined:hover {
     outline: transparent;
     border: 1px solid var(--st-darkgrey);
@@ -77,18 +102,18 @@
     border-bottom: 1px solid var(--st-darkred);
 }
 
-.basic-textfield-outlined:focus {
+.basic-textfield-outlined:focus, div.basic-textfield-outlined:focus-within {
     box-sizing: border-box;
     outline: transparent;
     border: 2px solid var(--st-darkgrey);
     margin: -1px;
 }
 
-.error-outlined:focus {
+.error-outlined:focus, div.error-outlined:focus-within {
     border: 2px solid var(--st-darkred);
 }
 
-.basic-textfield-filled:focus {
+.basic-textfield-filled:focus, div.basic-textfield-filled:focus-within {
     box-sizing: border-box;
     outline: transparent;
     background-color: var(--st-middlegrey);
@@ -96,17 +121,17 @@
     margin-bottom: -1px;
 }
 
-.error-filled:focus {
+.error-filled:focus, div.error-filled:focus-within {
     border-bottom: 2px solid var(--st-darkred);
 }
 
-.basic-textfield-standard:focus {
+.basic-textfield-standard:focus, div.basic-textfield-standard:focus-within {
     box-sizing: border-box;
     outline: transparent;
     border-bottom: 2px solid var(--st-darkgrey);
     margin-bottom: -1px;
 }
 
-.error-standard:focus {
+.error-standard:focus, div.error-standard:focus-within {
     border-bottom: 2px solid var(--st-darkred);
 }
