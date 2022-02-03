@@ -1,0 +1,112 @@
+/* This is textbox file */
+
+.basic-textfield-outlined {
+    outline: 2px solid transparent;
+    border: 1px solid var(--st-bordergrey);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.error-outlined {
+    border: 1px solid var(--st-red);
+}
+
+.basic-textfield-filled {
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--st-bordergrey);
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    background-color: var(--st-lightgrey);
+}
+
+.error-filled {
+    border-bottom: 1px solid var(--st-red);
+}
+
+.basic-textfield-standard {
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--st-bordergrey);
+}
+
+.error-standard {
+    border-bottom: 1px solid var(--st-red);
+}
+
+.help-block {
+    position: relative;
+    display: inline-block;
+}
+
+.helper-text-block {
+    position: absolute;
+    color: var(--st-bordergrey);
+    display: block;
+}
+
+.error-text {
+    color: var(--st-red);
+}
+
+.basic-textfield-outlined:hover {
+    outline: transparent;
+    border: 1px solid var(--st-darkgrey);
+}
+
+.error-outlined:hover {
+    border: 1px solid var(--st-darkred);
+}
+
+.basic-textfield-filled:hover {
+    outline: transparent;
+    border-bottom: 1px solid var(--st-darkgrey);
+    background-color: var(--st-middlegrey);
+}
+
+.error-filled:hover {
+    border-bottom: 1px solid var(--st-darkred);
+}
+
+.basic-textfield-standard:hover {
+    outline: transparent;
+    border-bottom: 1px solid var(--st-darkgrey);
+}
+
+.error-standard:hover {
+    border-bottom: 1px solid var(--st-darkred);
+}
+
+.basic-textfield-outlined:focus {
+    box-sizing: border-box;
+    outline: transparent;
+    border: 2px solid var(--st-darkgrey);
+    margin: -1px;
+}
+
+.error-outlined:focus {
+    border: 2px solid var(--st-darkred);
+}
+
+.basic-textfield-filled:focus {
+    box-sizing: border-box;
+    outline: transparent;
+    background-color: var(--st-middlegrey);
+    border-bottom: 2px solid var(--st-darkgrey);
+    margin-bottom: -1px;
+}
+
+.error-filled:focus {
+    border-bottom: 2px solid var(--st-darkred);
+}
+
+.basic-textfield-standard:focus {
+    box-sizing: border-box;
+    outline: transparent;
+    border-bottom: 2px solid var(--st-darkgrey);
+    margin-bottom: -1px;
+}
+
+.error-standard:focus {
+    border-bottom: 2px solid var(--st-darkred);
+}

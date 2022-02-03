@@ -349,3 +349,32 @@
     background-color: var(--st-white);
     color: var(--st-lightgreen);
 }
+
+.link-text {
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: var(--st-red);
+    text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+.link-primary:hover {
+    color: var(--st-primary-hover);
+}
+
+.link-secondary:hover {
+    color: var(--st-secondary-hover);
+}
+
+.btn-close {
+    color: var(--st-black);
+    font-size: 1.5rem;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    color: var(--st-brown);
+}
