@@ -16,6 +16,16 @@
     align-items: center;
 }
 
+.avatar-primary {
+    background-color: var(--st-primary-color);
+    color: var(--st-white);
+}
+
+.avatar-secondary {
+    background-color: var(--st-secondary-color);
+    color: var(--st-white);
+}
+
 .avatar-lg-size {
     width: 10rem;
     height: 10rem;
