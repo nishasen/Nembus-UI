@@ -1,0 +1,57 @@
+@import '/Stylesheet/css/general.css';
+@import '/Stylesheet/css/reset.css';
+@import '/Stylesheet/css/spacing.css';
+@import '/Stylesheet/css/typography.css';
+@import '/Stylesheet/css/utilities.css';
+@import '/Stylesheet/css/variables.css';
+
+@import '/Stylesheet/Components/image.css';
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+/* Nav */
+
+.navbar {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+    position: sticky;
+    top: 0;  
+    box-shadow: 2px 2px 3px hsla(200, 100%, 15%, 0.1); 
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.nav-header {
+    cursor: pointer;
+    color: var(--st-primary-color);
+    font-size: 2.5rem;
+}
+
+.header-span {
+    color: var(--st-primary-hover);
+}
+
+.nav-right {
+    margin-left: auto;
+}
+

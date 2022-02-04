@@ -1,7 +1,7 @@
 /* This is textbox file */
 
 input {
-    outline: none;
+    outline: transparent;
     border: none;
     display:block;
   }
