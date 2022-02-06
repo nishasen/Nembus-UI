@@ -3,6 +3,7 @@
 @import '/Stylesheet/css/utilities.css';
 @import '/Stylesheet/css/variables.css';
 
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 @import '/Stylesheet/Components/image.css';
 @import '/Stylesheet/Components/avatar.css';
 @import '/Stylesheet/Components/alert.css';
@@ -10,4 +11,3 @@
 @import '/Stylesheet/Components/button.css';
 @import '/Stylesheet/Components/card.css';
 @import '/Stylesheet/Components/textbox.css';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';

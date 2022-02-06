@@ -1,14 +1,16 @@
 /* This css file is for alerts */
 
 .alert-box{
-    max-width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 0.5rem;
     padding-left: 2rem;
+    padding-right: 2rem;
     font-family: var(--st-body-text);
     border-radius: 0.5rem;
-    display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .alert-primary {
@@ -34,4 +36,22 @@
 .alert-success {
     background-color: var(--st-success-bg);
     color: var(--st-green);
+}
+
+.alert-icon-right {
+    display: flex;
+    position: relative;
+}
+
+.alert-close {
+    color: var(--st-black);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+    color: var(--st-primary-hover);
 }

@@ -6,7 +6,7 @@
 }
 
 .avatar-square {
-    border-radius:  10%;
+    border-radius: 10%;
     border: 2px solid var(--st-white);
 }
 
@@ -49,3 +49,4 @@
     height: 3rem;
     font-size: 0.9rem;
 }
+

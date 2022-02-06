@@ -48,8 +48,8 @@
 
 .btn-link {
     text-decoration: none;
-    text-decoration: underline;
-    text-decoration-color: var(--st-red);
+    display: inline-block;
+    background-color: transparent;
 }
 
 .btn-floating {
@@ -364,17 +364,4 @@
 
 .link-secondary:hover {
     color: var(--st-secondary-hover);
-}
-
-.btn-close {
-    color: var(--st-black);
-    font-size: 1.5rem;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.btn-close:hover {
-    color: var(--st-brown);
 }
