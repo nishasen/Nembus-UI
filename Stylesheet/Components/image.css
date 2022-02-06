@@ -14,3 +14,22 @@
     border-radius: 10%;
 }
 
+.img-lg {
+    width: 15rem;
+    height: 15rem;
+}
+
+.img-md {
+    width: 12rem;
+    height:12rem;
+}
+
+.img-sm {
+    width: 9rem;
+    height: 9rem;
+}
+
+.img-xs {
+    width: 6rem;
+    height: 6rem;
+}
