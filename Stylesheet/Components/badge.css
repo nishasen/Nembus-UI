@@ -67,6 +67,7 @@
 
 .badge-text {
     margin-left: 1.5rem;
+    font-size: 0.7rem;
 }
 
 .wrap-inline {
@@ -79,7 +80,7 @@
 }
 
 .badge-box-square {
-    padding: 0.4rem 1rem;
+    padding: 0.2rem 1rem;
     border-radius: 0.5rem;
 }
 
