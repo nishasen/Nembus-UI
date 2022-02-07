@@ -1,0 +1,26 @@
+/* This is rating file */
+
+.ratings {
+    display: flex;
+    gap: 0.5rem
+}
+
+.rating-sm {
+    font-size: 1rem;
+}
+
+.rating-md {
+    font-size: 1.5rem;
+}
+
+.rating-lg {
+    font-size: 2rem;
+}
+
+.rating-fill {
+    cursor: pointer;
+}
+
+.rating-fill:hover {
+    color: var(--st-secondary-color);
+}
