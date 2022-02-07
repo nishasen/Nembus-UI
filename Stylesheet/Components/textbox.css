@@ -17,6 +17,7 @@ label {
     border: 1px solid var(--st-bordergrey);
     border-radius: 0.3rem;
     padding: 0.5rem;
+    background-color: var(--st-white);
 }
 
 .error-outlined {
@@ -40,6 +41,7 @@ label {
     border: none;
     padding: 0.5rem;
     border-bottom: 1px solid var(--st-bordergrey);
+    background-color: transparent;
 }
 
 .error-standard {

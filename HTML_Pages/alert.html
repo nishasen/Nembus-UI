@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alert</title>
     <link href="/Stylesheet/Doc/docStyles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/path/to/styles/default.min.css">
 </head>
 <body>
 
@@ -76,11 +77,34 @@
             </div>
         </section>
         <section class="comp-code-box">
-            <iframe
-            src="https://carbon.now.sh/embed/v9J7l1GeI9RxrJcSKbtu"
-            style="width: 100%; height: 240px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-            </iframe>
+            <pre>
+                <code class="html">
+                   &lt;div class="alert-box alert-primary"&gt;
+                        This is a primary alert with a link &lt;a class="link-text link-primary"&gt;Check this out!&lt;/a&gt;
+                   &lt;/div&gt;
+                   &lt;div class="alert-box alert-secondary"&gt;
+                        This is a secondary alert with a link &lt;a class="link-text link-secondary"&gt;Check this out!&lt;/a&gt;
+                   &lt;/div&gt;
+                   &lt;div class="alert-box alert-danger"&gt;
+                       &lt;span&gt;
+                           &lt;i class="fa fa-bug"&gt;&lt;/i&gt;
+                       &lt;/span&gt;
+                        This is a danger alert!!!
+                   &lt;/div&gt;
+                   &lt;div class="alert-box alert-warning"&gt;
+                       &lt;span&gt;
+                           &lt;i class="fa fa-warning"&gt;&lt;/i&gt;
+                       &lt;/span&gt;
+                        This is a warning alert!!!
+                   &lt;/div&gt;
+                   &lt;div class="alert-box alert-success"&gt;
+                       &lt;span&gt;
+                           &lt;i class="fa fa-check-circle"&gt;&lt;/i&gt;
+                       &lt;/span&gt;
+                        This is a success alert!!!
+                   &lt;/div&gt;
+                </code>
+            </pre>
         </section>
         <h3>Alert bar with close button</h3>
         <section class="comp-display-box-ver">
@@ -89,14 +113,19 @@
                 <i class="fa fa-remove alert-close" id="alert-close-button"></i>
             </div>
         </section>
-        <section class="comp-code-box">
-            <iframe
-            src="https://carbon.now.sh/embed/V5oht8JshymIWg446DR8"
-            style="width: 100%; height: 240px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-            </iframe>
+        <section class="comp-code-box">          
+            <pre>
+                <code class="html">
+                    &lt;div class="alert-box alert-primary alert-icon-right" id="alert-close"&gt;
+                        This is a primary alert with close button
+                        &lt;i class="fa fa-remove alert-close" id="alert-close-button"&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
         </section>
     </div>  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="/app.js" type="text/javascript"></script>
 </body>
 </html>

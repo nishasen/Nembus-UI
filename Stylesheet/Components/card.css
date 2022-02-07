@@ -5,6 +5,7 @@
     box-shadow: var(--st-box-shadow);
     border-radius: 0.5rem;
     max-width: 20rem;
+    background-color: var(--st-white);
 }
 
 .card-hor-wrapper {
@@ -14,6 +15,7 @@
     box-shadow: var(--st-box-shadow);
     border-radius: 0.5rem;
     max-width: 36rem;
+    background-color: var(--st-white);
 }
 
 .card-hor-top {

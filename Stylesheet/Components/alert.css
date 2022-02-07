@@ -40,6 +40,7 @@
 
 .alert-icon-right {
     display: flex;
+    align-items: center;
     position: relative;
 }
 

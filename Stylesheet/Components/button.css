@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--st-white);
+    background-color: transparent;
 }
 
 .btn-sm {
@@ -214,14 +214,15 @@
 
 .btn-disabled-contained {
     color: var(--st-white);
-    background-color: var(--st-lightgrey);
+    background-color: var(--st-middlegrey);
     cursor: auto;
 }
 
 .btn-disabled-outlined {
-    color: var(--st-lightgrey);
-    border: 2px solid var(--st-lightgrey);
+    color: var(--st-middlegrey);
+    border: 2px solid var(--st-middlegrey);
     cursor: auto;
+    background-color: var(--st-white);
 }
 
 /* Img container */
@@ -254,14 +255,14 @@
 /* Image hover */
 
 .btn-over-image:hover {
-    color: var(--st-lightgrey);
-    border: 2px solid var(--st-lightgrey);
+    color: var(--st-bordergrey);
+    border: 2px solid var(--st-bordergrey);
 }
 
 /* Icon hover */
 
 .btn-normal:hover {
-    background-color: var(--st-background-grey);
+    background-color: var(--st-bordergrey);
     opacity: 0.9;
 }
 
@@ -331,22 +332,18 @@
 /* Link hover */
 
 .btn-primary-link:hover {
-    background-color: var(--st-white);
     color: var(--st-primary-hover);
 }
 
 .btn-secondary-link:hover {
-    background-color: var(--st-white);
     color: var(--st-secondary-hover);
 }
 
 .btn-fire-link:hover {
-    background-color: var(--st-white);
     color: var(--st-lightred);
 }
 
 .btn-success-link:hover {
-    background-color: var(--st-white);
     color: var(--st-lightgreen);
 }
 

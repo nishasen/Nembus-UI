@@ -70,15 +70,7 @@
 }
 
 .wrap-inline {
-    display: flex;
-    align-items: center;
-}
-
-.badge-over-image {
-    font-family: var(--st-subheader-text);
-    position: absolute;
-    top: 1rem;
-    left: -2rem;
+    display: inline;
 }
 
 .badge-box-round {
@@ -110,3 +102,9 @@
     right: -1rem;
 }
 
+.badge-over-image {
+    font-family: var(--st-subheader-text);
+    position: absolute;
+    top: 1rem;
+    left: -2rem;
+}

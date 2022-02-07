@@ -47,23 +47,244 @@
     </nav>
     <div class="component-body" id="comp-body">
         <h1>Textboxes</h1>
-        <p>An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</p>     
-        <h3>Basic Alert bars</h3>
-        <section class="comp-display-box">
-            
+        <p>Text fields let users enter and edit text.</p>
+        <h3>Basic textfields</h3>
+        <section class="comp-display-box-ver">
+            <input type="text" placeholder="outlined" class="basic-textfield-outlined" id="basic-outlined">
+            <input type="text" placeholder="Filled" class="basic-textfield-filled" id="basic-filled">
+            <input type="text" placeholder="Standard" class="basic-textfield-standard" id="basic-standard">
         </section>
         <section class="comp-code-box">
-           
+           <pre>
+               <code class="html">
+                    &lt;input type="text" placeholder="outlined" class="basic-textfield-outlined" id="basic-outlined"&gt;
+                    &lt;input type="text" placeholder="Filled" class="basic-textfield-filled" id="basic-filled"&gt;
+                    &lt;input type="text" placeholder="Standard" class="basic-textfield-standard" id="basic-standard"&gt;
+               </code>
+           </pre>
         </section>
-        <h3>Alert bar with close button</h3>
-        <section class="comp-display-box">
-            
+        <h3>Textfields with different types of inputs</h3>
+        <section class="comp-display-box-ver">
+            <div class="display-container">
+                <h4>Outlined</h4>
+                <div class="inside-container">
+                    <input type="text" placeholder="required" class="basic-textfield-outlined" id="basic-outlined" required>
+                    <input type="text" placeholder="disabled" class="basic-textfield-outlined" id="basic-disabled-outlined" disabled>
+                    <input type="text" placeholder="read only" class="basic-textfield-outlined" id="basic-readonly-outlined" readonly>
+                    <input type="password" placeholder="password" class="basic-textfield-outlined" id="basic-password-outlined">
+                    <input type="number" placeholder="number" class="basic-textfield-outlined" id="basic-number-outlined">
+                    <input type="search" placeholder="search" class="basic-textfield-outlined" id="basic-search-outlined">
+                    <span class="help-block">
+                        <input type="text" placeholder="helper text" class="basic-textfield-outlined" id="basic-helpertext-outlined">
+                        <small class="helper-text-block">Helper text</small>
+                    </span>
+                </div>
+            </div>
         </section>
         <section class="comp-code-box">
-           
+            <pre>
+                <code class="html">
+                    <!-- Outlined textfields with different types of input -->
+                    &lt;input type="text" placeholder="required" class="basic-textfield-outlined" id="basic-outlined" required&gt;
+                    &lt;input type="text" placeholder="disabled" class="basic-textfield-outlined" id="basic-disabled-outlined" disabled&gt;
+                    &lt;input type="text" placeholder="read only" class="basic-textfield-outlined" id="basic-readonly-outlined" readonly&gt;
+                    &lt;input type="password" placeholder="password" class="basic-textfield-outlined" id="basic-password-outlined"&gt;
+                    &lt;input type="number" placeholder="number" class="basic-textfield-outlined" id="basic-number-outlined"&gt;
+                    &lt;input type="search" placeholder="search" class="basic-textfield-outlined" id="basic-search-outlined"&gt;
+                    &lt;span class="help-block"&gt;
+                        &lt;input type="text" placeholder="helper text" class="basic-textfield-outlined" id="basic-helpertext-outlined"&gt;
+                        &lt;small class="helper-text-block"&gt;Helper text&lt;/small&gt;
+                    &lt;/span&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="comp-display-box-ver">   
+            <div class="display-container">
+                <h4>Filled</h4>
+                <div class="inside-container">
+                    <input type="text" placeholder="required" class="basic-textfield-filled" id="basic-filled" required>
+                    <input type="text" placeholder="disabled" class="basic-textfield-filled" id="basic-disabled-filled" disabled>
+                    <input type="text" placeholder="read only" class="basic-textfield-filled" id="basic-readonly-filled" readonly>
+                    <input type="password" placeholder="password" class="basic-textfield-filled" id="basic-password-filled">
+                    <input type="number" placeholder="number" class="basic-textfield-filled" id="basic-number-filled">
+                    <input type="search" placeholder="search" class="basic-textfield-filled" id="basic-search-filled">
+                    <span class="help-block">
+                        <input type="text" placeholder="helper text" class="basic-textfield-filled" id="basic-helpertext-filled">
+                        <small class="helper-text-block">Helper text</small>
+                    </span>
+                </div>
+            </div>
+        </section> 
+        <section class="comp-code-box">
+            <pre>
+                <code class="html">
+                    <!-- Filled textfields with different types of input -->
+                    &lt;input type="text" placeholder="required" class="basic-textfield-filled" id="basic-filled" required&gt;
+                    &lt;input type="text" placeholder="disabled" class="basic-textfield-filled" id="basic-disabled-filled" disabled&gt;
+                    &lt;input type="text" placeholder="read only" class="basic-textfield-filled" id="basic-readonly-filled" readonly&gt;
+                    &lt;input type="password" placeholder="password" class="basic-textfield-filled" id="basic-password-filled"&gt;
+                    &lt;input type="number" placeholder="number" class="basic-textfield-filled" id="basic-number-filled"&gt;
+                    &lt;input type="search" placeholder="search" class="basic-textfield-filled" id="basic-search-filled"&gt;
+                    &lt;span class="help-block"&gt;
+                        &lt;input type="text" placeholder="helper text" class="basic-textfield-filled" id="basic-helpertext-filled"&gt;
+                        &lt;small class="helper-text-block"&gt;Helper text&lt;/small&gt;
+                    &lt;/span&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="comp-display-box-ver"> 
+            <div class="display-container">
+                <h4>Standard</h4>
+                <div class="inside-container">
+                    <input type="text" placeholder="required" class="basic-textfield-standard" id="basic-standard" required>
+                    <input type="text" placeholder="disabled" class="basic-textfield-standard" id="basic-disabled-standard" disabled>
+                    <input type="text" placeholder="read only" class="basic-textfield-standard" id="basic-readonly-standard" readonly>
+                    <input type="password" placeholder="password" class="basic-textfield-standard" id="basic-password-standard">
+                    <input type="number" placeholder="number" class="basic-textfield-standard" id="basic-number-standard">
+                    <input type="search" placeholder="search" class="basic-textfield-standard" id="basic-search-standard">
+                    <span class="help-block">
+                        <input type="text" placeholder="helper text" class="basic-textfield-standard" id="basic-helpertext-standard">
+                        <small class="helper-text-block">Helper text</small>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="comp-code-box">
+            <pre>
+                <code class="html">
+                    <!-- Standard textfields with different types of input -->
+                    &lt;input type="text" placeholder="required" class="basic-textfield-standard" id="basic-standard" required&gt;
+                    &lt;input type="text" placeholder="disabled" class="basic-textfield-standard" id="basic-disabled-standard" disabled&gt;
+                    &lt;input type="text" placeholder="read only" class="basic-textfield-standard" id="basic-readonly-standard" readonly&gt;
+                    &lt;input type="password" placeholder="password" class="basic-textfield-standard" id="basic-password-standard"&gt;
+                    &lt;input type="number" placeholder="number" class="basic-textfield-standard" id="basic-number-standard"&gt;
+                    &lt;input type="search" placeholder="search" class="basic-textfield-standard" id="basic-search-standard"&gt;
+                    &lt;span class="help-block"&gt;
+                        &lt;input type="text" placeholder="helper text" class="basic-textfield-standard" id="basic-helpertext-standard"&gt;
+                        &lt;small class="helper-text-block"&gt;Helper text&lt;/small&gt;
+                    &lt;/span&gt;
+                </code>
+            </pre>
+        </section>
+        <h3>Validation input</h3>
+        <section class="comp-display-box-hor">
+            <div class="inside-container">
+                <input type="text" placeholder="outlined" class="basic-textfield-outlined error-outlined" id="basic-outlined">
+                <input type="text" placeholder="filled" class="basic-textfield-filled error-filled" id="basic-filled">
+                <input type="text" placeholder="standard" class="basic-textfield-standard error-standard" id="basic-standard">
+            </div>
+            <div class="inside-container">
+                <span class="help-block">
+                    <input type="text" placeholder="helper text" class="basic-textfield-outlined error-outlined" id="basic-helpertext-outlined">
+                    <small class="helper-text-block error-text">Helper text</small>
+                </span>
+                <span class="help-block">
+                    <input type="text" placeholder="helper text" class="basic-textfield-filled error-filled" id="basic-helpertext-filled">
+                    <small class="helper-text-block error-text">Helper text</small>
+                </span>
+                <span class="help-block">
+                    <input type="text" placeholder="helper text" class="basic-textfield-standard error-standard" id="basic-helpertext-standard">
+                    <small class="helper-text-block error-text">Helper text</small>
+                </span>
+            </div>
+        </section>
+        <section class="comp-code-box">
+           <pre>
+               <code class="html">
+                    &lt;input type="text" placeholder="outlined" class="basic-textfield-outlined error-outlined" id="basic-outlined"&gt;
+                    &lt;input type="text" placeholder="filled" class="basic-textfield-filled error-filled" id="basic-filled"&gt;
+                    &lt;input type="text" placeholder="standard" class="basic-textfield-standard error-standard" id="basic-standard"&gt;
+                   
+                    &lt;span class="help-block"&gt;
+                        &lt;input type="text" placeholder="helper text" class="basic-textfield-outlined error-outlined" id="basic-helpertext-outlined"&gt;
+                        &lt;small class="helper-text-block error-text"&gt;Helper text&lt;/small&gt;
+                    &lt;/span&gt;
+                    &lt;span class="help-block"&gt;
+                        &lt;input type="text" placeholder="helper text" class="basic-textfield-filled error-filled" id="basic-helpertext-filled"&gt;
+                        &lt;small class="helper-text-block error-text"&gt;Helper text&lt;/small&gt;
+                    &lt;/span&gt;
+                    &lt;span class="help-block"&gt;
+                        &lt;input type="text" placeholder="helper text" class="basic-textfield-standard error-standard" id="basic-helpertext-standard"&gt;
+                        &lt;small class="helper-text-block error-text"&gt;Helper text&lt;/small&gt;
+                    &lt;/span&gt;
+               </code>
+           </pre>
+        </section>
+        <h3>Textbox with label inside</h3>
+        <section class="comp-display-box-ver">
+            <div class="basic-textfield-outlined textfield-label">
+                <label for="textfield-label-outlined">Outlined</label>
+                <input type="text" name="outlined" id="basic-outlined" class="filled-color">
+            </div>
+            <div class="basic-textfield-filled textfield-label">
+                <label for="textfield-label-filled">Filled</label>
+                <input type="text" name="filled" id="basic-filled" class="filled-color">
+            </div>
+            <div class="basic-textfield-standard textfield-label">
+                <label for="textfield-label-standard">Standard</label>
+                <input type="text" name="standard" id="basic-standard" class="filled-color">
+            </div>
+        </section>
+        <section class="comp-code-box">
+           <pre>
+               <code class="html">
+                &lt;div class="basic-textfield-outlined textfield-label"&gt;
+                    &lt;label for="textfield-label-outlined"&gt;Outlined&lt;/label&gt;
+                    &lt;input type="text" name="outlined" id="basic-outlined" class="filled-color"&gt;
+                &lt;/div&gt;
+                &lt;div class="basic-textfield-filled textfield-label"&gt;
+                    &lt;label for="textfield-label-filled"&gt;Filled&lt;/label&gt;
+                    &lt;input type="text" name="filled" id="basic-filled" class="filled-color"&gt;
+                &lt;/div&gt;
+                &lt;div class="basic-textfield-standard textfield-label"&gt;
+                    &lt;label for="textfield-label-standard"&gt;Standard&lt;/label&gt;
+                    &lt;input type="text" name="standard" id="basic-standard" class="filled-color"&gt;
+                &lt;/div&gt;
+               </code>
+           </pre>
+        </section>
+        <h3>Error textbox with label inside</h3>
+        <section class="comp-display-box-ver">
+            <div class="basic-textfield-outlined textfield-label error-outlined">
+                <label for="textfield-label-outlined">Outlined</label>
+                <input type="text" name="outlined" id="basic-outlined" class="filled-color">
+                <small class="helper-text-block error-text label-error">Helper text</small>
+            </div>
+            <div class="basic-textfield-filled textfield-label error-filled">
+                <label for="textfield-label-filled">Filled</label>
+                <input type="text" name="filled" id="basic-filled" class="filled-color">
+                <small class="helper-text-block error-text label-error">Helper text</small>
+            </div>
+            <div class="basic-textfield-standard textfield-label error-standard">
+                <label for="textfield-label-standard">Standard</label>
+                <input type="text" name="standard" id="basic-standard" class="filled-color">
+                <small class="helper-text-block error-text label-error">Helper text</small>
+            </div>
+        </section>
+        <section class="comp-code-box">
+           <pre>
+               <code class="html">
+                &lt;div class="basic-textfield-outlined textfield-label error-outlined"&gt;
+                    &lt;label for="textfield-label-outlined"&gt;Outlined&lt;/label&gt;
+                    &lt;input type="text" name="outlined" id="basic-outlined" class="filled-color"&gt;
+                    &lt;small class="helper-text-block error-text label-error"&gt;Helper text&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;div class="basic-textfield-filled textfield-label error-filled"&gt;
+                    &lt;label for="textfield-label-filled"&gt;Filled&lt;/label&gt;
+                    &lt;input type="text" name="filled" id="basic-filled" class="filled-color"&gt;
+                    &lt;small class="helper-text-block error-text label-error"&gt;Helper text&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;div class="basic-textfield-standard textfield-label error-standard"&gt;
+                    &lt;label for="textfield-label-standard"&gt;Standard&lt;/label&gt;
+                    &lt;input type="text" name="standard" id="basic-standard" class="filled-color"&gt;
+                    &lt;small class="helper-text-block error-text label-error"&gt;Helper text&lt;/small&gt;
+                &lt;/div&gt;
+               </code>
+           </pre>
         </section>
     </div> 
-    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="/app.js" type="text/javascript"></script>
 </body>
 </html>
