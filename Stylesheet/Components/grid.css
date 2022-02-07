@@ -1,0 +1,16 @@
+/* This is grid file */
+
+.grid {
+    display: grid;
+    grid-gap: 0.5rem;
+}
+
+.grid2 {
+    grid-template-columns: repeat(2, 1fr);  
+}
+
+.grid3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
