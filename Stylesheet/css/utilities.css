@@ -106,6 +106,18 @@
 
 /* Typography */
 
+.text-header {
+    font-family: var(--st-header-text);
+}
+
+.text-subheader {
+    font-family: var(--st-subheader-text);
+}
+
+.text-body {
+    font-family: var(--st-body-text);
+}
+
 .text-primary {
     color: var(--st-primary-color);
 }
@@ -130,8 +142,12 @@
     color: var(--st-bordergrey);
 }
 
-.text-grey {
+.text-black {
     color: var(--st-black)
+}
+
+.text-white {
+    color: var(--st-white);
 }
 
 /* Background */
