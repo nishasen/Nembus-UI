@@ -11,8 +11,11 @@
 @import '/Stylesheet/Components/avatar.css';
 @import '/Stylesheet/Components/badge.css';
 @import '/Stylesheet/Components/button.css';
-@import '/Stylesheet/Components/card.css';
 @import '/Stylesheet/Components/textbox.css';
+@import '/Stylesheet/Components/card.css';
+@import '/Stylesheet/Components/grid.css';
+@import '/Stylesheet/Components/ratings.css';
+@import '/Stylesheet/Components/slider.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/a11y-dark.min.css';
 
 /* Nav */
@@ -141,12 +144,13 @@
 }
 
 .component-body {
-    margin: 0 2rem;
+    margin-left: 0 auto;
+    padding: 0 1.5rem;
     padding-top: 4.5rem;
     padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -196,16 +200,15 @@
     padding: 0.8rem;    
 } */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     .component-body {
-        margin: 0 2rem;
-        margin-right: 8rem;
         margin-left: 15rem;
+        padding: 0 1.5rem;
         padding-top: 4.5rem;
         padding-bottom: 1rem;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 1rem;
     }   
   }

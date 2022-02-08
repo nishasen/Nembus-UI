@@ -8,8 +8,7 @@
     <link href="/Stylesheet/Doc/docStyles.css" rel="stylesheet">
 </head>
 <body>
-
-     <nav class="navbar">        
+    <nav class="navbar">        
         <div class="nav-logo">
             <i class="fa fa-bars text-primary doc-icon" id="open-side-nav"></i>
             <a href="/index.html" class="btn-link">
@@ -36,13 +35,16 @@
         </div>
         <div class="side-nav-div">
             <p class="side-header">Components</p>
-            <a href="/HTML_Pages/avatar.html" class="btn-link text-primary side-list">Avatar</a>
-            <a href="/HTML_Pages/alert.html" class="btn-link text-primary side-list">Alert</a>
-            <a href="/HTML_Pages/badge.html" class="btn-link text-primary side-list">Badge</a>
-            <a href="/HTML_Pages/button.html" class="btn-link text-primary side-list">Button</a>
-            <a href="/HTML_Pages/card.html" class="btn-link text-primary side-list">Card</a>
-            <a href="/HTML_Pages/image.html" class="btn-link text-primary side-list">Image</a>
-            <a href="/HTML_Pages/textbox.html" class="btn-link text-primary side-list">Textbox</a>
+            <a href="/HTML_Pages/alert.html" class="btn-link text-primary side-list">Alerts</a>
+            <a href="/HTML_Pages/avatar.html" class="btn-link text-primary side-list">Avatars</a>
+            <a href="/HTML_Pages/badge.html" class="btn-link text-primary side-list">Badges</a>
+            <a href="/HTML_Pages/button.html" class="btn-link text-primary side-list">Buttons</a>
+            <a href="/HTML_Pages/card.html" class="btn-link text-primary side-list">Cards</a>
+            <a href="/HTML_Pages/grid.html" class="btn-link text-primary side-list">Grids</a>
+            <a href="/HTML_Pages/image.html" class="btn-link text-primary side-list">Images</a>
+            <a href="/HTML_Pages/ratings.html" class="btn-link text-primary side-list">Ratings</a>
+            <a href="/HTML_Pages/slider.html" class="btn-link text-primary side-list">Slider</a>
+            <a href="/HTML_Pages/textbox.html" class="btn-link text-primary side-list">Textboxs</a>
         </div>
     </nav>
     <div class="component-body" id="comp-body">
@@ -149,34 +151,34 @@
         <section class="comp-code-box">
            <pre>
                 <code class="html">
-                    &lt;div class="card-wrapper"&gt;
-                        &lt;div class="img-container"&gt;
-                            &lt;span class="badge-text badge-box-square fire-bgcolor badge-over-image"&gt;New&lt;/span&gt;
-                            &lt;button class="btn btn-lg icon-lg btn-icon-solid btn-normal card-top-icon" id="card-close"&gt;&lt;i class="fa fa-share-alt"&gt;&lt;/i&gt;&lt;/button&gt;
-                            &lt;img src="/Assets/Dreamcatcher.jpg" class="card-image img-responsive"&gt;
-                        &lt;/div&gt;       
-                        &lt;div class="card-title"&gt;
-                            &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
-                            &lt;button class="btn btn-md icon-md btn-icon-contained btn-fire"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
-                        &lt;/div&gt;
-                        &lt;p class="card-body"&gt;Asian Hobby Crafts Dream Catcher Wall Hanging (Blue Lagoon)&lt;/p&gt;
-                        &lt;div class="ratings"&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star-half-full checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star-o"&gt;&lt;/span&gt;
-                        &lt;/div&gt;
-                        &lt;h4 class="price"&gt;Rs. 150&lt;/h4&gt;
-                        &lt;div class="card-btn-container"&gt;
-                            &lt;button class="btn btn-lg btn-primary-outlined"&gt;
-                                &lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&nbsp;Add to cart
-                            &lt;/button&gt;
-                            &lt;button class="btn btn-lg btn-primary-contained"&gt;
-                                &lt;i class="fa fa-bolt"&gt;&lt;/i&gt;&nbsp;Buy Now
-                            &lt;/button&gt;
-                        &lt;/div&gt;  
-                    &lt;/div&gt;
+    &lt;div class="card-wrapper"&gt;
+        &lt;div class="img-container"&gt;
+            &lt;span class="badge-text badge-box-square fire-bgcolor badge-over-image"&gt;New&lt;/span&gt;
+            &lt;button class="btn btn-lg icon-lg btn-icon-solid btn-normal card-top-icon" id="card-close"&gt;&lt;i class="fa fa-share-alt"&gt;&lt;/i&gt;&lt;/button&gt;
+            &lt;img src="/Assets/Dreamcatcher.jpg" class="card-image img-responsive"&gt;
+        &lt;/div&gt;       
+        &lt;div class="card-title"&gt;
+            &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
+            &lt;button class="btn btn-md icon-md btn-icon-contained btn-fire"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;p class="card-body"&gt;Asian Hobby Crafts Dream Catcher Wall Hanging (Blue Lagoon)&lt;/p&gt;
+        &lt;div class="ratings"&gt;
+            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star-half-full checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star-o"&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h4 class="price"&gt;Rs. 150&lt;/h4&gt;
+        &lt;div class="card-btn-container"&gt;
+            &lt;button class="btn btn-lg btn-primary-outlined"&gt;
+                &lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&nbsp;Add to cart
+            &lt;/button&gt;
+            &lt;button class="btn btn-lg btn-primary-contained"&gt;
+                &lt;i class="fa fa-bolt"&gt;&lt;/i&gt;&nbsp;Buy Now
+            &lt;/button&gt;
+        &lt;/div&gt;  
+    &lt;/div&gt;
                 </code>
            </pre>
         </section>
@@ -213,33 +215,33 @@
         <section class="comp-code-box">
            <pre>
                <code class="html">
-                    &lt;div class="card-wrapper" id="card-dismiss"&gt;
-                        &lt;div class="img-container"&gt;
-                            &lt;button class="btn btn-lg icon-lg btn-icon-solid btn-normal card-top-icon" id="card-close"&gt;&lt;i class="fa fa-remove"&gt;&lt;/i&gt;&lt;/button&gt;
-                            &lt;img src="/Assets/Dreamcatcher.jpg" class="card-image img-responsive"&gt;
-                        &lt;/div&gt;       
-                        &lt;div class="card-title"&gt;
-                            &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
-                            &lt;button class="btn btn-md icon-md btn-icon-contained btn-fire"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
-                        &lt;/div&gt;
-                        &lt;p class="card-body"&gt;Asian Hobby Crafts Dream Catcher Wall Hanging (Blue Lagoon)&lt;/p&gt;
-                        &lt;div class="ratings"&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star-half-full checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star-o"&gt;&lt;/span&gt;
-                        &lt;/div&gt;
-                        &lt;h4 class="price"&gt;Rs. 150&lt;/h4&gt;
-                        &lt;div class="card-btn-container"&gt;
-                            &lt;button class="btn btn-lg btn-primary-outlined"&gt;
-                                &lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&nbsp;Add to cart
-                            &lt;/button&gt;
-                            &lt;button class="btn btn-lg btn-primary-contained"&gt;
-                                &lt;i class="fa fa-bolt"&gt;&lt;/i&gt;&nbsp;Buy Now
-                            &lt;/button&gt;    
-                        &lt;/div&gt;  
-                    &lt;/div&gt;
+    &lt;div class="card-wrapper" id="card-dismiss"&gt;
+        &lt;div class="img-container"&gt;
+            &lt;button class="btn btn-lg icon-lg btn-icon-solid btn-normal card-top-icon" id="card-close"&gt;&lt;i class="fa fa-remove"&gt;&lt;/i&gt;&lt;/button&gt;
+            &lt;img src="/Assets/Dreamcatcher.jpg" class="card-image img-responsive"&gt;
+        &lt;/div&gt;       
+        &lt;div class="card-title"&gt;
+            &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
+            &lt;button class="btn btn-md icon-md btn-icon-contained btn-fire"&gt;&lt;i class="fa fa-heart"&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;p class="card-body"&gt;Asian Hobby Crafts Dream Catcher Wall Hanging (Blue Lagoon)&lt;/p&gt;
+        &lt;div class="ratings"&gt;
+            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star-half-full checked"&gt;&lt;/span&gt;
+            &lt;span class="fa fa-star-o"&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h4 class="price"&gt;Rs. 150&lt;/h4&gt;
+        &lt;div class="card-btn-container"&gt;
+            &lt;button class="btn btn-lg btn-primary-outlined"&gt;
+                &lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&nbsp;Add to cart
+            &lt;/button&gt;
+            &lt;button class="btn btn-lg btn-primary-contained"&gt;
+                &lt;i class="fa fa-bolt"&gt;&lt;/i&gt;&nbsp;Buy Now
+            &lt;/button&gt;    
+        &lt;/div&gt;  
+    &lt;/div&gt;
                </code>
            </pre>
         </section>
@@ -353,198 +355,75 @@
                </code>
            </pre>
         </section>
-        <h3>Basic horizontal card</h3>
+        <h3>E-commerce horizontal card</h3>
+        <p>This is a responsive card it becomes vertical when the size of the screen decreases.</p>
         <section class="comp-display-box-hor">
-            <div class="card-hor-wrapper">            
-                <div class="card-hor-top">
-                    <div class="img-container hor-img-container">
-                        <img src="/Assets/Dreamcatcher.jpg" class="img-responsive">
-                    </div>   
-                    <div class="card-hor-title">
-                        <h3>Dreamcatcher</h3>
-                        <p>Sky Wonder 5 Round Dream Catcher for Wall Hanging/Office/Bedroom/Balcony/Home Decoration (Blue)</p>
-                        <h4 class="card-hor-body">Rs. 150</h4>
-                        <div class="card-hor-container">
-                            <div class="card-hor-btn-container">
-                                <button class="btn btn-md btn-primary-contained btn-space"><i class="fa fa-bolt"></i>Buy now</button>
-                                <button class="btn btn-md btn-primary-outlined btn-space"><i class="fa fa-trash"></i>Delete</button>
-                            </div>
-                        </div> 
-                    </div>
-                </div> 
-            </div>
-        </section>
-        <section class="comp-code-box">
-           <pre>
-               <code class="html">
-                    &lt;div class="card-hor-wrapper"&gt;            
-                        &lt;div class="card-hor-top"&gt;
-                            &lt;div class="img-container hor-img-container"&gt;
-                                &lt;img src="/Assets/Dreamcatcher.jpg" class="img-responsive"&gt;
-                            &lt;/div&gt;   
-                            &lt;div class="card-hor-title"&gt;
-                                &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
-                                &lt;p&gt;Sky Wonder 5 Round Dream Catcher for Wall Hanging/Office/Bedroom/Balcony/Home Decoration (Blue)&lt;/p&gt;
-                                &lt;h4 class="card-hor-body"&gt;Rs. 150&lt;/h4&gt;
-                                &lt;div class="card-hor-container"&gt;
-                                    &lt;div class="card-hor-btn-container"&gt;
-                                        &lt;button class="btn btn-md btn-primary-contained btn-space"&gt;&lt;i class="fa fa-bolt"&gt;&lt;/i&gt;Buy now&lt;/button&gt;
-                                        &lt;button class="btn btn-md btn-primary-outlined btn-space"&gt;&lt;i class="fa fa-trash"&gt;&lt;/i&gt;Delete&lt;/button&gt;
-                                    &lt;/div&gt;
-                                &lt;/div&gt; 
-                            &lt;/div&gt;
-                        &lt;/div&gt; 
-                    &lt;/div&gt;
-               </code>
-           </pre>
-        </section>
-        <h3>Text only horizontal card</h3>
-        <section class="comp-display-box-hor">
-            <div class="card-hor-wrapper">            
-                <div class="card-title">
+            <div class="card-wrapper-hor">            
+                <div class="img-container">
+                    <img src="https://picsum.photos/id/104/200/250" class="img-responsive card-image-hor">
+                </div>   
+                <div class="card-body-hor">
                     <h3>Dreamcatcher</h3>
-                </div>
-                <p class="card-body">The dreamcatcher is a protective talisman that is used to protect people from nightmares and bad dreams. Native American cultures believe that both good and bad dreams fill the air at night. The dreamcatcher acts like a spider's web by trapping the bad dreams or visions while allowing the good ones to filter through.</p>
-                <div class="ratings">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star-half-full checked"></span>
-                    <span class="fa fa-star-o"></span>
-                </div>
-                <div class="card-hor-container">
-                    <div class="card-hor-btn-container">
-                        <button class="btn btn-md btn-primary-contained btn-space"><i class="fa fa-book"></i>Read</button>
-                        <button class="btn btn-md btn-primary-contained btn-space"><i class="fa fa-bookmark"></i>Bookmark</button>
+                    <div class="card-price">
+                        <h4>Rs. 150</h4>
+                        <small><del>Rs. 750</del></small>
                     </div>
-                    <div class="card-icon-container">
-                        <button class="btn btn-md icon-md btn-icon-contained btn-primary">
-                            <i class="fa fa-heart"></i>
-                        </button>
-                        <button class="btn btn-md icon-md btn-icon-contained btn-primary">
-                            <i class="fa fa-share-alt"></i>
-                        </button>
-                        <button class="btn btn-md icon-md btn-icon-contained btn-primary">
-                            <i class="fa fa-ellipsis-v"></i>
-                        </button>
-                    </div>
-                </div>  
-            </div>
-        </section>
-        <section class="comp-code-box">
-            <pre>
-                <code class="html">
-                    &lt;div class="card-hor-wrapper"&gt;            
-                        &lt;div class="card-title"&gt;
-                            &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
-                        &lt;/div&gt;
-                        &lt;p class="card-body"&gt;The dreamcatcher is a protective talisman that is used to protect people from nightmares and bad dreams. Native American cultures believe that both good and bad dreams fill the air at night. The dreamcatcher acts like a spider's web by trapping the bad dreams or visions while allowing the good ones to filter through.&lt;/p&gt;
-                        &lt;div class="ratings"&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star-half-full checked"&gt;&lt;/span&gt;
-                            &lt;span class="fa fa-star-o"&gt;&lt;/span&gt;
-                        &lt;/div&gt;
-                        &lt;div class="card-hor-container"&gt;
-                            &lt;div class="card-hor-btn-container"&gt;
-                                &lt;button class="btn btn-md btn-primary-contained btn-space"&gt;&lt;i class="fa fa-book"&gt;&lt;/i&gt;Read&lt;/button&gt;
-                                &lt;button class="btn btn-md btn-primary-contained btn-space"&gt;&lt;i class="fa fa-bookmark"&gt;&lt;/i&gt;Bookmark&lt;/button&gt;
-                            &lt;/div&gt;
-                            &lt;div class="card-icon-container"&gt;
-                                &lt;button class="btn btn-md icon-md btn-icon-contained btn-primary"&gt;
-                                    &lt;i class="fa fa-heart"&gt;&lt;/i&gt;
-                                &lt;/button&gt;
-                                &lt;button class="btn btn-md icon-md btn-icon-contained btn-primary"&gt;
-                                    &lt;i class="fa fa-share-alt"&gt;&lt;/i&gt;
-                                &lt;/button&gt;
-                                &lt;button class="btn btn-md icon-md btn-icon-contained btn-primary"&gt;
-                                    &lt;i class="fa fa-ellipsis-v"&gt;&lt;/i&gt;
-                                &lt;/button&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;  
-                    &lt;/div&gt;
-                </code>
-            </pre>
-        </section>
-        <h3>Horizontal card with image</h3>
-        <section class="comp-display-box-hor">
-            <div class="card-hor-wrapper">            
-                <div class="card-hor-top">
-                    <div class="img-container">
-                        <img src="/Assets/Dreamcatcher.jpg" class="card-image  hor-image img-responsive">
-                    </div>   
-                    <div class="card-hor-title">
-                        <h3>Dreamcatcher</h3>
-                        <p class="card-hor-body">The dreamcatcher is a protective talisman that is used to protect people from nightmares and bad dreams.</p>
-                        <div class="hor-ratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star-half-full checked"></span>
-                            <span class="fa fa-star-o"></span>
+                    <small class="text-span">50% off</small>                       
+                    <div class="btn-container-hor">
+                        <div class="btn-counter">
+                            <button class="btn btn-md btn-primary-floating btn-floating floating-md">+</button>
+                            <input type="number" value="1" class="basic-textfield-outlined item-counter" id="basic-outlined">
+                            <button class="btn btn-md btn-primary-floating btn-floating floating-md">-</button>
+                        </div>
+                        <div class="big-btn-container">
+                            <button class="btn btn-md btn-primary-contained btn-big">
+                                <i class="fa fa-heart-o"></i>&nbsp;Add to wishlist
+                            </button>
+                        </div>
+                        <div class="big-btn-container">
+                            <button class="btn btn-md btn-primary-outlined btn-big">
+                                <i class="fa fa-bolt"></i>&nbsp; Buy now
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="card-hor-container">
-                    <div class="card-hor-btn-container">
-                        <button class="btn btn-md btn-primary-contained btn-space"><i class="fa fa-book"></i>Read</button>
-                        <button class="btn btn-md btn-primary-contained btn-space"><i class="fa fa-bookmark"></i>Bookmark</button>
-                    </div>
-                    <div class="card-icon-container">
-                        <button class="btn btn-md icon-md btn-icon-contained btn-primary">
-                            <i class="fa fa-heart"></i>
-                        </button>
-                        <button class="btn btn-md icon-md btn-icon-contained btn-primary">
-                            <i class="fa fa-share-alt"></i>
-                        </button>
-                        <button class="btn btn-md icon-md btn-icon-contained btn-primary">
-                            <i class="fa fa-ellipsis-v"></i>
-                        </button>
-                    </div>
-                </div>  
-            </div>
+                </div> 
+            </div> 
         </section>
         <section class="comp-code-box">
            <pre>
                <code class="html">
-                    &lt;div class="card-hor-wrapper"&gt;            
-                        &lt;div class="card-hor-top"&gt;
-                            &lt;div class="img-container"&gt;
-                                &lt;img src="/Assets/Dreamcatcher.jpg" class="card-image  hor-image img-responsive"&gt;
-                            &lt;/div&gt;   
-                            &lt;div class="card-hor-title"&gt;
-                                &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
-                                &lt;p class="card-hor-body"&gt;The dreamcatcher is a protective talisman that is used to protect people from nightmares and bad dreams.&lt;/p&gt;
-                                &lt;div class="hor-ratings"&gt;
-                                    &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                                    &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                                    &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;
-                                    &lt;span class="fa fa-star-half-full checked"&gt;&lt;/span&gt;
-                                    &lt;span class="fa fa-star-o"&gt;&lt;/span&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;div class="card-hor-container"&gt;
-                            &lt;div class="card-hor-btn-container"&gt;
-                                &lt;button class="btn btn-md btn-primary-contained btn-space"&gt;&lt;i class="fa fa-book"&gt;&lt;/i&gt;Read&lt;/button&gt;
-                                &lt;button class="btn btn-md btn-primary-contained btn-space"&gt;&lt;i class="fa fa-bookmark"&gt;&lt;/i&gt;Bookmark&lt;/button&gt;
-                            &lt;/div&gt;
-                            &lt;div class="card-icon-container"&gt;
-                                &lt;button class="btn btn-md icon-md btn-icon-contained btn-primary"&gt;
-                                    &lt;i class="fa fa-heart"&gt;&lt;/i&gt;
-                                &lt;/button&gt;
-                                &lt;button class="btn btn-md icon-md btn-icon-contained btn-primary"&gt;
-                                    &lt;i class="fa fa-share-alt"&gt;&lt;/i&gt;
-                                &lt;/button&gt;
-                                &lt;button class="btn btn-md icon-md btn-icon-contained btn-primary"&gt;
-                                    &lt;i class="fa fa-ellipsis-v"&gt;&lt;/i&gt;
-                                &lt;/button&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;  
-                    &lt;/div&gt;
+    &lt;div class="card-wrapper-hor"&gt;            
+        &lt;div class="img-container"&gt;
+            &lt;img src="https://picsum.photos/id/104/200/250" class="img-responsive card-image-hor"&gt;
+        &lt;/div&gt;   
+        &lt;div class="card-body-hor"&gt;
+            &lt;h3&gt;Dreamcatcher&lt;/h3&gt;
+            &lt;div class="card-price"&gt;
+                &lt;h4&gt;Rs. 150&lt;/h4&gt;
+                &lt;small&gt;&lt;del&gt;Rs. 750&lt;/del&gt;&lt;/small&gt;
+            &lt;/div&gt;
+            &lt;small class="text-span"&gt;50% off&lt;/small&gt;                       
+            &lt;div class="btn-container-hor"&gt;
+                &lt;div class="btn-counter"&gt;
+                    &lt;button class="btn btn-md btn-primary-floating btn-floating floating-md"&gt;+&lt;/button&gt;
+                    &lt;input type="number" value="1" class="basic-textfield-outlined item-counter" id="basic-outlined"&gt;
+                    &lt;button class="btn btn-md btn-primary-floating btn-floating floating-md"&gt;-&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="big-btn-container"&gt;
+                    &lt;button class="btn btn-md btn-primary-contained btn-big"&gt;
+                        &lt;i class="fa fa-heart-o"&gt;&lt;/i&gt;&nbsp;Add to wishlist
+                    &lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="big-btn-container"&gt;
+                    &lt;button class="btn btn-md btn-primary-outlined btn-big"&gt;
+                        &lt;i class="fa fa-bolt"&gt;&lt;/i&gt;&nbsp; Buy now
+                    &lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; 
+    &lt;/div&gt; 
                </code>
-            </pre>
+           </pre>
         </section>
     </div> 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>

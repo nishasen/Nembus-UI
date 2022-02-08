@@ -126,6 +126,14 @@
     color: var(--st-span-text);    
 }
 
+.text-grey {
+    color: var(--st-bordergrey);
+}
+
+.text-grey {
+    color: var(--st-black)
+}
+
 /* Background */
 
 .primary-bgcolor {
