@@ -28,6 +28,7 @@
     --st-header-text: 'Abril Fatface', cursive;
     --st-subheader-text: 'Bai Jamjuree', sans-serif;
     --st-body-text: 'Epilogue', sans-serif;
+    --st-comp-lib-text: 'Bai Jamjuree', sans-serif;
     --st-floating-btn-shadow: 2px 5px 5px  rgba(0,0,0,0.2);
     --st-btn-txt-shadow: 5px 5px 10px var(--st-black);
     --st-text-shadow: 2px 2px 3px var(--st-white);

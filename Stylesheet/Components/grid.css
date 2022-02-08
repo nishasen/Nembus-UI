@@ -3,6 +3,8 @@
 .grid {
     display: grid;
     grid-gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 .grid2 {
@@ -11,6 +13,16 @@
 
 .grid3 {
     grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+    .grid2 {
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    
+    .grid3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 

@@ -16,6 +16,7 @@
 @import '/Stylesheet/Components/grid.css';
 @import '/Stylesheet/Components/ratings.css';
 @import '/Stylesheet/Components/slider.css';
+@import '/Stylesheet/Components/textUtilities.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/a11y-dark.min.css';
 
 /* Nav */
@@ -99,7 +100,7 @@
     margin-top: 1rem;
 }
 
-.side-nav { 
+.side-nav {
     width: 0;
     height: 100%;
     position: fixed;
@@ -177,6 +178,10 @@
     gap: 2rem;
 }
 
+.text-property {
+    align-items: flex-start;
+}
+
 .comp-code-box {
     width: 100%;
 }
@@ -203,8 +208,9 @@
 
 @media only screen and (min-width: 600px) {
     .component-body {
-        margin-left: 15rem;
-        padding: 0 1.5rem;
+        margin-left: 14rem;
+        padding-left: 1.5rem;
+        padding-right: 2rem;
         padding-top: 4.5rem;
         padding-bottom: 1rem;
         display: flex;

@@ -1,5 +1,6 @@
 @import '/Stylesheet/css/general.css';
 @import '/Stylesheet/css/reset.css';
+@import '/Stylesheet/css/typography.css';
 @import '/Stylesheet/css/utilities.css';
 @import '/Stylesheet/css/variables.css';
 
@@ -14,4 +15,5 @@
 @import '/Stylesheet/Components/grid.css';
 @import '/Stylesheet/Components/ratings.css';
 @import '/Stylesheet/Components/slider.css';
+@import '/Stylesheet/Components/textUtilities.css';
 
