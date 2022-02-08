@@ -4,3 +4,12 @@
     width: 100%;
 }
 
+.slider {
+    width: 100%;
+}
+
+.value-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
