@@ -106,6 +106,7 @@
     z-index: 11;
     top: 0;
     left: 0;
+    padding-bottom: 2rem;
     background-color: var(--st-white);
     overflow-x: hidden;
     display: flex;
