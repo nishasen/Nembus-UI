@@ -1,48 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bai+Jamjuree&family=Epilogue&display=swap');
-/* 
-font-family: 'Abril Fatface', cursive;
-font-family: 'Bai Jamjuree', sans-serif;
-font-family: 'Epilogue', sans-serif;
-*/
 
-h1, h2,
-h3, h4,
-h5, p {
+.p1, .p2,
+.p3, .p4, 
+.p5 {
     font-family: var(--st-comp-lib-text);
 }
 
-h1 {
-    font-weight: 750;
+.p1, .p2, 
+.p3, .p4, 
+.p5 {
+    font-weight: 400;
+}
+
+.p1 {
     line-height: 4rem;
     font-size: 3rem;
 }
 
-h2 {
-    font-weight: 700;
+.p2 {
     line-height: 2.5rem;
     font-size: 2rem;
 }
 
-h3 {
-    font-weight: 650;
+.p3 {
     line-height: 2rem;
     font-size: 1.5rem;
 }
 
-h4 {
-    font-weight: 600;
+.p4 {
     line-height: 1.5rem;
     font-size: 1rem;
 }
 
-h5 {
-    font-weight: 550;
+.p5 {
     line-height: 1rem;
     font-size: 0.5rem;
 }
 
-p {
-    line-height: 1.5rem;
-    font-size: 1rem;
+.font-weight-black {
+    font-weight: 900;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.font-weight-regular {
     font-weight: 400;
+}
+
+.font-weight-light {
+    font-weight: 300;
 }
