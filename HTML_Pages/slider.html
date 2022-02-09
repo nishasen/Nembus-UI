@@ -69,6 +69,17 @@
                     &lt;/div&gt;
                 </code>
             </pre>
+            <pre>
+                <code class="html">
+                    &lt;!-- JavaScript --&gt;
+                    const slider = document.querySelector("#slider")
+                    const valueOfSlider = document.querySelector("#slider-value")
+                    valueOfSlider.innerHTML = slider.value;
+                    slider.addEventListener("input", ()=>{
+                        valueOfSlider.innerHTML = slider.value;
+                    })
+                </code>
+            </pre>
         </section>
         <h3>Discrete slider</h3>
         <section class="comp-display-box-ver">
@@ -100,6 +111,17 @@
                 &lt;/div&gt;
                </code>
            </pre>
+           <pre>
+            <code class="html">
+                &lt;!-- JavaScript --&gt;
+                const stepSlider = document.querySelector("#step-slider")
+                const valueOfStepSlider = document.querySelector("#step-slider-value")
+                valueOfStepSlider.innerHTML = stepSlider.value;
+                stepSlider.addEventListener("input", ()=>{
+                    valueOfStepSlider.innerHTML = stepSlider.value;
+                })                
+            </code>
+        </pre>
         </section>
     </div>  
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
