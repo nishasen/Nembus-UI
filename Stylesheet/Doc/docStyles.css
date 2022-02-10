@@ -140,6 +140,10 @@
     padding-top: 0.5rem;
 }
 
+.side-header {
+    font-weight: bold;
+}
+
 .side-header, .side-list {
     padding-top: 1rem;
     padding-left: 2rem;
