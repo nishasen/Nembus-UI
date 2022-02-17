@@ -1,6 +1,6 @@
 :root {
     --st-primary-color: hsl(200, 100%, 15%);
-    --st-primary-hover: hsl(200, 100%, 40%);
+    --st-primary-hover: hsl(200, 100%, 30%);
     --st-primary-disabled: hsl(200, 100%, 84%);
     --st-secondary-color: hsl(40, 100%, 45%);
     --st-secondary-hover: hsl(40, 100%, 72%);
@@ -25,6 +25,7 @@
     --st-lightred: hsl(0, 100%, 80%);
     --st-black: hsl(0, 0%, 0%);
     --st-white: hsl(0, 0%, 100%);
+    --st-body-background: hsl(211, 61%, 10%);
     --st-header-text: 'Abril Fatface', cursive;
     --st-subheader-text: 'Bai Jamjuree', sans-serif;
     --st-body-text: 'Epilogue', sans-serif;

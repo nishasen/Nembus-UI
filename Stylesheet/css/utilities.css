@@ -195,3 +195,11 @@
 .background-grey {
     background-color: var(--st-background-grey);
 }
+
+.hover-red:hover {
+    color: var(--st-lightred);
+}
+
+.hover-primary:hover {
+    color: var(--st-primary-hover);
+}
