@@ -118,20 +118,14 @@
     font-family: var(--st-body-text);
 }
 
+/* Text colors */
+
 .text-primary {
     color: var(--st-primary-color);
 }
 
 .text-secondary {
     color: var(--st-secondary-color);
-}
-
-.text-primary-hover {
-    color: var(--st-primary-hover);
-}
-
-.text-secondary-hover {
-    color: var(--st-secondary-hover);
 }
 
 .text-span {
@@ -148,6 +142,36 @@
 
 .text-white {
     color: var(--st-white);
+}
+
+/* Link text */
+
+.link-text {
+    text-decoration: none;
+}
+
+.link-primary {
+    color: var(--st-primary-color);
+}
+
+.link-secondary {
+    color: var(--st-secondary-color);
+}
+
+.link-primary:hover {
+    color: var(--st-primary-hover);
+}
+
+.link-secomdary:hover {
+    color: var(--st-secondary-hover);
+}
+
+.hover-red:hover {
+    color: var(--st-lightred);
+}
+
+.hover-primary:hover {
+    color: var(--st-primary-hover);
 }
 
 /* Background */
@@ -194,12 +218,4 @@
 
 .background-grey {
     background-color: var(--st-background-grey);
-}
-
-.hover-red:hover {
-    color: var(--st-lightred);
-}
-
-.hover-primary:hover {
-    color: var(--st-primary-hover);
 }
