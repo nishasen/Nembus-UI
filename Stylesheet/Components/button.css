@@ -203,8 +203,6 @@
     border-radius: 50%;
 }
 
-
-
 /* Disabled button */
 
 .btn-disabled-contained {
@@ -278,6 +276,11 @@
 
 .btn-success:hover {
     background-color: var(--st-lightgreen);
+    opacity: 0.9;
+}
+
+.btn-icon-solid:hover {
+    color: var(--st-white);
 }
 
 /* Contained and floating hover */
