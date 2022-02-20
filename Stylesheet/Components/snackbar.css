@@ -1,0 +1,45 @@
+/* This is scackbar css file */
+
+.snack-container, .appear, #basic-snackbar.show {
+    background-color: var(--st-snack-bg);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: var(--st-white);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    width: 22rem;  
+}
+
+.appear {
+    visibility: hidden;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+#basic-snackbar.show {
+    visibility: visible;
+}
+
+.btn-close {
+    color: var(--st-white); 
+    border-radius: 50%;
+    border: 1px solid transparent;  
+    padding: 0.5rem
+}
+
+.btn-close, .snack-link {
+    cursor: pointer;
+}
+
+.snack-link {
+    color: var(--st-purple);
+    text-decoration: none;
+}
+
+.btn-close:hover {
+    background-color: var(--st-bordergrey);
+}
