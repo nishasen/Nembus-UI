@@ -24,6 +24,8 @@
     --st-red: hsl(0, 100%, 50%);
     --st-lightred: hsl(0, 100%, 63%);
     --st-black: hsl(0, 0%, 0%);
+    --st-snack-bg: hsl(0, 0%, 20%);
+    --st-purple: hsl(267, 95%, 76%);
     --st-white: hsl(0, 0%, 100%);
     --st-primary-white: hsl(198, 42%, 95%);
     --st-body-background: hsl(211, 61%, 10%);
