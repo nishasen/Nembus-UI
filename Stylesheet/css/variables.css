@@ -25,6 +25,7 @@
     --st-lightred: hsl(0, 100%, 63%);
     --st-black: hsl(0, 0%, 0%);
     --st-white: hsl(0, 0%, 100%);
+    --st-primary-white: hsl(198, 42%, 95%);
     --st-body-background: hsl(211, 61%, 10%);
     --st-header-text: 'Abril Fatface', cursive;
     --st-subheader-text: 'Bai Jamjuree', sans-serif;
