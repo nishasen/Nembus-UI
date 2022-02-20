@@ -144,6 +144,10 @@
     color: var(--st-white);
 }
 
+.text-primary-light {
+    color: var(--st-primary-hover);
+}
+
 /* Link text */
 
 .link-text {
