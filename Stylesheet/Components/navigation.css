@@ -1,0 +1,40 @@
+.tab-container {
+    background-color: var(--st-lightgrey);
+    overflow: auto;
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.tab-align-container {
+    justify-content: center;
+}
+
+.child {
+    display: inline-block;
+    color: var(--st-primary-color);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-bottom: 1.5px solid transparent
+}
+
+.top-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.child:hover {
+    background-color: var(--st-primary-white);
+    color: var(--st-primary-hover);
+}
+
+.child:focus {
+    color: var(--st-primary-hover);
+    background-color: var(--st-primary-white);
+    border-bottom: 1.5px solid var(--st-primary-hover);
+}
