@@ -1,3 +1,5 @@
+/* This is modal css file */
+
 .modal, .modal-icon, .modal-btn, .modal-icon .modal-link, .modal-input, .item-div {
     display: flex;
 }
