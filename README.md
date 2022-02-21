@@ -5,6 +5,7 @@ NembusUI is a component library, which is easy to use, customized CSS framework 
 ## Technologies used
 - HTML
 - CSS
+- JavaScript
 
 ## Version
 - 1.0
@@ -17,8 +18,11 @@ NembusUI is a component library, which is easy to use, customized CSS framework 
 - Cards
 - Grid
 - Image
+- Modals
+- Navigation
 - Ratings
 - Slider
+- Snackbar
 - Textboxes
 - Text Utilities
 
@@ -66,3 +70,15 @@ Documentation site : [NembusUI](https://nishasen-nembus-ui.netlify.app/)
 - An example of images
 
 <img width="617" alt="images" src="https://user-images.githubusercontent.com/43262505/153049023-6956764b-f98c-42e3-9f4d-e1049a0d57dd.PNG">
+
+- An example of modals
+
+<img width="204" alt="Modals" src="https://user-images.githubusercontent.com/43262505/154902841-e236f0ea-0c51-422f-b548-c60dee024331.PNG">
+
+-An example of navigation
+
+<img width="709" alt="Navigation" src="https://user-images.githubusercontent.com/43262505/154902870-7c5cc298-7c4e-458a-bad9-589964a6e629.PNG">
+
+- an example of snackbar
+
+<img width="548" alt="Snackbar" src="https://user-images.githubusercontent.com/43262505/154902883-c2851983-f47c-4707-a46a-665c396c8196.PNG">
