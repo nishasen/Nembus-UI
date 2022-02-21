@@ -31,9 +31,13 @@ Documentation site : [NembusUI](https://nishasen-nembus-ui.netlify.app/)
 
 # Screenshots
 
-- Document landing page
+- NembusUI landing page
 
 <img width="951" alt="DocImage" src="https://user-images.githubusercontent.com/43262505/153048680-0742c541-eeef-452c-9fd1-689f82312859.PNG">
+
+- Responsiveness of component library
+
+<img width="160" alt="Responsiveness" src="https://user-images.githubusercontent.com/43262505/154904022-990f68ce-6e06-4ca9-906b-bb154a1ea086.PNG">
 
 - An example of alerts
 
@@ -75,7 +79,7 @@ Documentation site : [NembusUI](https://nishasen-nembus-ui.netlify.app/)
 
 <img width="204" alt="Modals" src="https://user-images.githubusercontent.com/43262505/154902841-e236f0ea-0c51-422f-b548-c60dee024331.PNG">
 
--An example of navigation
+- An example of navigation
 
 <img width="709" alt="Navigation" src="https://user-images.githubusercontent.com/43262505/154902870-7c5cc298-7c4e-458a-bad9-589964a6e629.PNG">
 
