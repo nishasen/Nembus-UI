@@ -1,8 +1,8 @@
-@import '/Stylesheet/css/general.css';
-@import '/Stylesheet/css/reset.css';
-@import '/Stylesheet/css/typography.css';
-@import '/Stylesheet/css/utilities.css';
-@import '/Stylesheet/css/variables.css';
+@import '/Stylesheet/GeneralCSS/general.css';
+@import '/Stylesheet/GeneralCSS/reset.css';
+@import '/Stylesheet/GeneralCSS/typography.css';
+@import '/Stylesheet/GeneralCSS/utilities.css';
+@import '/Stylesheet/GeneralCSS/variables.css';
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 @import '/Stylesheet/Components/textbox.css';
