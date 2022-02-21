@@ -85,6 +85,16 @@
     color: var(--st-primary-hover);
 }
 
+.side-list:hover {
+    font-weight: bold;
+
+}
+
+.focus-link {
+    color: var(--st-primary-hover);
+    font-weight: bold;
+}
+
 .main {
     flex-direction: column;
     padding: 3rem;
