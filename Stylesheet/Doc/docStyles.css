@@ -21,6 +21,8 @@
 @import '/Stylesheet/Components/snackbar.css';
 @import '/Stylesheet/Components/textUtilities.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/a11y-dark.min.css';
+@import '/Stylesheet/Components/list.css';
+@import '/Stylesheet/Components/sideNavigation.css';
 
 /* Nav */
 
