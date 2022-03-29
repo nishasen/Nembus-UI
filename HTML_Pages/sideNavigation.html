@@ -102,7 +102,26 @@
         <section class="comp-code-box">
             <pre>
                 <code class="html">
-                  
+                    &lt;div class="sidenav-body"&gt;
+                        &lt;div class="topnav top"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="sidenav"&gt;
+                            &lt;ul class="sidenav-list"&gt;
+                                &lt;li class="items"&gt;
+                                    &lt;div class="avatar avatar-xs-size"&gt;
+                                        &lt;img src="https://picsum.photos/200?random=4" class="img-responsive img-round" alt="avatar"&gt;
+                                    &lt;/div&gt;
+                                    List item
+                                &lt;/li&gt;
+                                &lt;li class="items"&gt;
+                                    &lt;div class="avatar avatar-xs-size"&gt;
+                                        &lt;img src="https://picsum.photos/200?random=4" class="img-responsive img-round" alt="avatar"&gt;
+                                    &lt;/div&gt;
+                                    List item
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
                 </code>
             </pre>
         </section>
@@ -151,7 +170,41 @@
         <section class="comp-code-box">          
             <pre>
                 <code class="html">
-                   
+                    &lt;div class="sidenav-body"&gt;
+                        &lt;div class="topnav"&gt;
+                            &lt;i class="fa fa-bars hamburger" id="hamburger"&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                        &lt;div class="sidenav toggle-sidenav" id="sidenav"&gt;
+                            &lt;ul class="sidenav-list"&gt;
+                                &lt;li class="items"&gt;
+                                    &lt;div class="avatar avatar-xs-size"&gt;
+                                        &lt;img src="https://picsum.photos/200?random=4" class="img-responsive img-round" alt="avatar"&gt;
+                                    &lt;/div&gt;
+                                    List item
+                                &lt;/li&gt;
+                                &lt;li class="items"&gt;
+                                    &lt;div class="avatar avatar-xs-size"&gt;
+                                        &lt;img src="https://picsum.photos/200?random=4" class="img-responsive img-round" alt="avatar"&gt;
+                                    &lt;/div&gt;
+                                    List item
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+            <pre>
+                <code class="javascript">
+                    const hamburger = document.querySelector("#hamburger")
+                    const sidenav = document.querySelector("#sidenav")
+
+                    hamburger.addEventListener("click", () => {
+                        if(sidenav.style.width === "12rem"){
+                            sidenav.style.width = "0"
+                        } else {
+                            sidenav.style.width = "12rem"
+                        }
+                    })
                 </code>
             </pre>
         </section>
