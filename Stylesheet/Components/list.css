@@ -1,0 +1,42 @@
+.listpane {
+    background-color: var(--st-lightgrey);
+    
+}
+
+.list-header {
+    text-align: center;
+    border-bottom: 2px solid var(--st-primary-color);
+    padding: 0.5rem
+}
+
+.lists {
+   background-color: var(--st-lightgrey);
+   padding-inline-start: 0px;
+   color: var(--st-primary-color);
+   cursor: pointer;
+}
+
+.list-item {
+    list-style-type:none;
+    padding: 0.5rem;
+}
+
+.list-inline {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.scrollable-list {
+    height: 18rem;
+    overflow-y: scroll;
+}
+
+.list-item:hover {
+    color: var(--st-primary-hover);
+    background-color: var(--st-primary-white);
+}
+
+.list-item:focus {
+    border-bottom: 1.5px solid var(--st-primary-hover);
+}
