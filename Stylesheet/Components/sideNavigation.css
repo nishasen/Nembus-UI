@@ -1,0 +1,53 @@
+.sidenav-body {
+    width: 90%;
+    height: 20rem;
+    background-color: var(--st-primary-white);
+}
+
+.top {
+    height: 2.5rem;
+}
+
+.topnav {
+    width: 100%;
+    background-color: var(--st-primary-color);
+    color: var(--st-white);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+.sidenav {
+    width: 12rem;
+    box-shadow: 2px 2px 3px hsla(200, 100%, 15%, 0.1); 
+    background-color: hsla(0, 0%, 98%, 0.3);
+    backdrop-filter: blur(8px);
+    height: 17.5rem;
+    overflow-y: scroll;
+}
+
+.toggle-sidenav {
+    width: 0
+}
+
+.sidenav-list {
+    padding-inline-start: 0;
+}
+
+.items {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.items:hover {
+    color: var(--st-primary-hover);
+    font-weight: bold;
+}
