@@ -18,9 +18,11 @@ NembusUI is a component library, which is easy to use, customized CSS framework 
 - Cards
 - Grid
 - Image
+- Lists
 - Modals
 - Navigation
 - Ratings
+- Side Navigation
 - Slider
 - Snackbar
 - Textboxes
@@ -64,6 +66,10 @@ Updated Documentation site : [NembusUI](https://nembusui.netlify.app/)
 
 <img width="156" alt="grids" src="https://user-images.githubusercontent.com/43262505/153048911-348c1d34-65a7-498e-9b33-3610eb9cd296.PNG">
 
+- An example of lists
+
+![image](https://user-images.githubusercontent.com/43262505/162166645-d1b2f861-df92-470c-aec5-0f929de137cf.png)
+
 - An example of ratings
 
 <img width="176" alt="ratings" src="https://user-images.githubusercontent.com/43262505/153048957-2047eaa9-7cae-4d18-9aab-a69a957ad4f8.PNG">
@@ -83,6 +89,11 @@ Updated Documentation site : [NembusUI](https://nembusui.netlify.app/)
 - An example of navigation
 
 <img width="709" alt="Navigation" src="https://user-images.githubusercontent.com/43262505/154902870-7c5cc298-7c4e-458a-bad9-589964a6e629.PNG">
+
+- An example of side navigation
+
+![image](https://user-images.githubusercontent.com/43262505/162166869-a02acd36-0d3c-472e-8d44-ea08e3b6b868.png)
+
 
 - an example of snackbar
 
