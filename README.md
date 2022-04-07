@@ -32,6 +32,9 @@ NembusUI is a component library, which is easy to use, customized CSS framework 
 Documentation site : [NembusUI](https://nishasen-nembus-ui.netlify.app/)
 Updated Documentation site : [NembusUI](https://nembusui.netlify.app/)
 
+# To add these styles to your app just import this link
+  @import url("https://nembusui.netlify.app/styles.css")
+
 # Screenshots
 
 - NembusUI landing page
