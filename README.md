@@ -28,6 +28,7 @@ NembusUI is a component library, which is easy to use, customized CSS framework 
 
 # Live link
 Documentation site : [NembusUI](https://nishasen-nembus-ui.netlify.app/)
+Updated Documentation site : [NembusUI](https://nembusui.netlify.app/)
 
 # Screenshots
 
