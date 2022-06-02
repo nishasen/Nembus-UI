@@ -32,3 +32,27 @@
     width: 6rem;
     height: 6rem;
 }
+
+@media only screen and (max-width: 500px) {
+    
+    .img-lg {
+        width: 12rem;
+        height: 12rem;
+    }
+    
+    .img-md {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .img-sm {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .img-xs {
+        width: 3rem;
+        height: 3rem;
+    }
+
+}

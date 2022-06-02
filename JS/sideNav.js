@@ -8,3 +8,9 @@ hamburger.addEventListener("click", () => {
         sidenav.style.width = "12rem"
     }
 })
+
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+   });
