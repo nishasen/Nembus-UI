@@ -10,3 +10,9 @@ sideNavOpen.addEventListener("click", () => {
 sideNavClose.addEventListener("click", () => {
     sideNav.style.width = "0";
 })
+
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+   });
